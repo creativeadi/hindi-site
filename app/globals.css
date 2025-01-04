@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(180deg, #FFA134 0.36%, #FFB259 99.6%);
+}
+footer{
+  background: transparent;
+  height: 180px;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+  
+
+/* styles.module.css */
+  .imageWithPadding {
+    padding-left: 20px;
+  }
+
+  .container { display: flex; height: 100vh; /* Full viewport height */ }
+
+  .leftColumn, .rightColumn { 
+    flex: 1; /* Takes up equal space */ 
+    padding: 20px; 
+    box-sizing: border-box; /* Ensures padding does not affect width */ 
+  } 
+  
+  .leftColumn { 
+    background-color: #f0f0f0; /* Light gray background */ 
+  } 
+  
+  .rightColumn { 
+    background-color: #e0e0e0; /* Slightly darker gray background */ 
+  }
+
+  .fullscreen {
+    position: relative;
+    width: 100vw;
+    overflow: hidden;
+  }
+  
+}
