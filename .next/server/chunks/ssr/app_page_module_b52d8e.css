@@ -1,0 +1,17 @@
+/* [project]/app/page.module.css [app-client] (css) */
+.page-module__E0kJGG__section {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.page-module__E0kJGG__container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=app_page_module_b52d8e.css.map*/
