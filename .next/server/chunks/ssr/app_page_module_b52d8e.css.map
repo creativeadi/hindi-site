@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/app/page.module.css"],"sourcesContent":[".section {\r\n  min-height: 100vh;\r\n  width: 100%;\r\n  position: relative;\r\n  overflow: hidden;\r\n  scroll-snap-align: start;\r\n}\r\n\r\n/* Add container styles */\r\n.container {\r\n  position: relative;\r\n  height: 100vh;\r\n  display: flex;\r\n  flex-direction: column;\r\n} "],"names":[],"mappings":"AAAA;;;;;;;;AASA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
