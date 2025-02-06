@@ -151,7 +151,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[linear-gradient(179.56deg,#FFA134_0.36%,#FFB259_99.6%)] py-12">
-      <h1 style={{ ...styles.caption, fontSize: isMobile ? "40px" : "80px" }}>Meet Our Team</h1>
+      <h1 className="font-samarka" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333", marginBottom: isMobile ? "20px" : "40px" }}>
+        Meet Our Team
+      </h1>
       
       {/* Faculty Only */}
       <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`}>

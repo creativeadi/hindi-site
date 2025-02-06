@@ -1,0 +1,25 @@
+/* [project]/app/samarkafont_ed9f0752.module.css [app-client] (css) */
+@font-face {
+  font-family: samarkaFont;
+  src: url("../media/Samarka-s.p.1a5a3119.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: samarkaFont Fallback;
+  src: local(Arial);
+  ascent-override: 89.37%;
+  descent-override: 34.14%;
+  line-gap-override: 0.0%;
+  size-adjust: 99.27%;
+}
+
+.samarkafont_ed9f0752-module__UpP2lW__className {
+  font-family: samarkaFont, samarkaFont Fallback;
+}
+
+.samarkafont_ed9f0752-module__UpP2lW__variable {
+  --font-samarka: "samarkaFont", "samarkaFont Fallback";
+}
+
+/*# sourceMappingURL=app_samarkafont_ed9f0752_module_b52d8e.css.map*/

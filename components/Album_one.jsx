@@ -131,7 +131,7 @@ const styles = {
   },
   caption: {
     marginTop: "8px",
-    fontFamily: "'Samarka', cursive",
+    fontFamily: "var(--font-samarka)",
     color: "#333",
   },
   button: {

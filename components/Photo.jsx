@@ -112,7 +112,12 @@ const PhotoWithOverlay = () => {
                 />
             </div>
             <div style={{ ...styles.overlay, ...(!isMobile ? styles.halfWidth : {}) }}>
-                <h2 style={{ ...styles.caption, fontSize: isMobile ? "40px" : "80px" }}>
+                <h2 className="font-samarka" style={{ 
+                    marginTop: "1px",
+                    fontSize: isMobile ? "40px" : "80px",
+                    color: "#333",
+                    textAlign: "center"
+                }}>
                     Photo Album
                 </h2>
                 <div

@@ -88,10 +88,12 @@ export default function Home() {
   const isMobile = useScreenSize();
 
   return (
-    <div className={`min-h-screen flex flex-col items-center justify-center bg-[linear-gradient(179.56deg,#FFA134_0.36%,#FFB259_99.6%)] py-4`}
+    <div className="min-h-screen flex flex-col items-center justify-center py-12"
       style={{marginBottom: isMobile ? "10px" : "40px"}}
     >
-      <h1 style={{ ...styles.caption, fontSize: isMobile ? "40px" : "80px", marginBottom: isMobile ? "20px" : "40px", }}>Website Development Team</h1>
+      <h1 className="font-samarka" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333", marginBottom: isMobile ? "20px" : "40px" }}>
+        Website Development Team
+      </h1>
       {/* President Only */}
       <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`} style={{ marginTop: "20px", marginBottom:"10px" }}>
         {President.map((profile, index) => (

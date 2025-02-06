@@ -40,7 +40,14 @@ function End() {
       }}
     >
       {/* Caption */}
-      <div style={styles.caption}>Vasudhaiva Kutumbakam</div>
+      <div className="font-samarka" style={{ 
+        marginTop: "8px",
+        fontSize: "80px",
+        color: "#333",
+        textAlign: "center" 
+      }}>
+        Vasudhaiva Kutumbakam
+      </div>
 
       {/* Conditional Image Rendering */}
       <div style={styles.imageContainer}>

@@ -496,7 +496,8 @@ const ImageSlider = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             ...styles.caption,
-                            fontSize: isMobile ? "20px" : "35px"
+                            fontSize: isMobile ? "20px" : "35px",
+                            fontFamily: "Samarka"
                         },
                         children: albumImages[currentIndex].name
                     }, void 0, false, {
@@ -519,12 +520,12 @@ const ImageSlider = ()=>{
                 },
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaChevronRight"], {}, void 0, false, {
                     fileName: "[project]/components/KavyanjaliSec.jsx",
-                    lineNumber: 106,
+                    lineNumber: 107,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/KavyanjaliSec.jsx",
-                lineNumber: 98,
+                lineNumber: 99,
                 columnNumber: 7
             }, this)
         ]
@@ -563,7 +564,7 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
+        fontFamily: "Samarka",
         color: "#333"
     },
     button: {

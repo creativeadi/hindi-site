@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			samarka: ['var(--font-samarka)'],
+		  },
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'
