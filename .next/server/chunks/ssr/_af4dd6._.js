@@ -207,6 +207,31 @@ const Footer = ()=>{
                                     fileName: "[project]/components/Footer.jsx",
                                     lineNumber: 42,
                                     columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "icon-wrapper group flex items-center justify-center w-8 h-8 rounded-full transition-all duration-300 hover:bg-white",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                        href: "mailto:hindiclub@vitbhopal.ac.in",
+                                        className: "text-orange-500",
+                                        target: "_blank",
+                                        rel: "noopener noreferrer",
+                                        "aria-label": "Email",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FaEnvelope"], {
+                                            size: 30
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 61,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Footer.jsx",
+                                        lineNumber: 54,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 53,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
@@ -223,13 +248,13 @@ const Footer = ()=>{
                                     children: "Technical Team, Hindi Club"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 56,
+                                    lineNumber: 67,
                                     columnNumber: 49
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 55,
+                            lineNumber: 66,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -237,7 +262,7 @@ const Footer = ()=>{
                             children: "VIT Bhopal"
                         }, void 0, false, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 58,
+                            lineNumber: 69,
                             columnNumber: 11
                         }, this)
                     ]
@@ -253,12 +278,12 @@ const Footer = ()=>{
                         alt: "VIT Bhopal Logo"
                     }, void 0, false, {
                         fileName: "[project]/components/Footer.jsx",
-                        lineNumber: 63,
+                        lineNumber: 74,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 62,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this)
             ]

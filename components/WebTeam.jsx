@@ -20,6 +20,13 @@ export default function Home() {
       linkedin: "https://www.linkedin.com/in/anvaya-arsha-761037252/",
       instagram: "",
     },
+    {
+      src: "/assets/teams/sujal.png",
+      name: "Sujal Sakhare",
+      designation: "Technical, Member",
+      linkedin: "https://www.linkedin.com/in/sujal-s-286b33258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://www.instagram.com/sujallll.s?igsh=MXJicHd2amg5d3Y5cg%3D%3D&utm_source=qr",
+    },
   ];
 
   const President = [
@@ -38,7 +45,7 @@ export default function Home() {
       instagram: "https://www.instagram.com/harshhaditya/",
     },
     {
-      src: "/assets/teams/garv.png",
+      src: "/assets/teams/Garv.png",
       name: "Garv Anand",
       designation: "Technical, Team Co-Lead",
       linkedin: "https://www.linkedin.com/in/garv-anand-1bb36b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
