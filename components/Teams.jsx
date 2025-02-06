@@ -74,7 +74,7 @@ export default function Home() {
       name: "Harsh Aditya",
       designation: "Technical, Team Lead",
       linkedin: "https://www.linkedin.com/in/harsh-aditya-354aa4251/",
-      instagram: "",
+      instagram: "https://www.instagram.com/harshhaditya/",
     },
     {
       src: "/assets/teams/Garv.png",
