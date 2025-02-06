@@ -7,20 +7,6 @@ import Image from "next/image";
 export default function Home() {
   const profiles = [
     {
-      src: "/assets/teams/harsh.png",
-      name: "Harsh Aditya",
-      designation: "Technical, Team Lead",
-      linkedin: "https://www.linkedin.com/in/harsh-aditya-354aa4251/",
-      instagram: "",
-    },
-    {
-      src: "/assets/teams/Garv.png",
-      name: "Garv Anand",
-      designation: "Technical, Team Co-Lead",
-      linkedin: "https://www.linkedin.com/in/garv-anand-1bb36b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-      instagram: "https://www.instagram.com/garv_anand_/profilecard/?igsh=MWlzMm5sbHk5ejkwMA==",
-    },
-    {
         src: "/assets/teams/ad1.png",
         name: "Aman Deep Singh",
         designation: "Technical, Member",
@@ -28,25 +14,18 @@ export default function Home() {
         instagram: "https://www.instagram.com/a.d_singhhh/profilecard/?igsh=MWZ5NG02NHVvcjljOQ==",
     },
     {
-        src: "/assets/teams/avnish.png",
-        name: "Avnish Agrawal",
-        designation: "Technical, Member",
-        linkedin: "https://www.linkedin.com/in/avnish-agrawal-84b39728a/",
-        instagram: "https://www.instagram.com/avnish_1447/",
-    },
-    {
-        src: "/assets/teams/aryav.png",
-        name: "Aryav Tiwari",
-        designation: "Technical, Member",
-        linkedin: "https://www.linkedin.com/in/aryav-tiwari/",
-        instagram: "https://www.instagram.com/aryavtiwari._/",
-    },
-    {
       src: "/assets/teams/anvay.png",
       name: "Anvaya Arsha",
       designation: "Website Designer",
       linkedin: "https://www.linkedin.com/in/anvaya-arsha-761037252/",
       instagram: "",
+    },
+    {
+      src: "/assets/teams/sujal.png",
+      name: "Sujal Sakhare",
+      designation: "Technical, Member",
+      linkedin: "https://www.linkedin.com/in/sujal-s-286b33258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://www.instagram.com/sujallll.s?igsh=MXJicHd2amg5d3Y5cg%3D%3D&utm_source=qr",
     },
   ];
 
@@ -57,6 +36,20 @@ export default function Home() {
       designation: "President",
       linkedin: "https://www.linkedin.com/in/dharmbir-singh-4a1ab024a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
+    },
+    {
+      src: "/assets/teams/harsh.png",
+      name: "Harsh Aditya",
+      designation: "Technical, Team Lead",
+      linkedin: "https://www.linkedin.com/in/harsh-aditya-354aa4251/",
+      instagram: "https://www.instagram.com/harshhaditya/",
+    },
+    {
+      src: "/assets/teams/Garv.png",
+      name: "Garv Anand",
+      designation: "Technical, Team Co-Lead",
+      linkedin: "https://www.linkedin.com/in/garv-anand-1bb36b270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "https://www.instagram.com/garv_anand_/profilecard/?igsh=MWlzMm5sbHk5ejkwMA==",
     },
   ]
 

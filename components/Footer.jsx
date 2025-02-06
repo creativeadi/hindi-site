@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaLinkedinIn, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 import Image from 'next/image';
 import image from '@/public/assets/club.png';
 import image_vitb from '@/public/assets/vitb.png';
@@ -48,6 +48,17 @@ const Footer = () => {
                 aria-label="LinkedIn"
               >
                 <FaLinkedinIn size={30} />
+              </a>
+            </div>
+            <div className="icon-wrapper group flex items-center justify-center w-8 h-8 rounded-full transition-all duration-300 hover:bg-white">
+              <a
+                href="mailto:hindiclub@vitbhopal.ac.in"
+                className="text-orange-500"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Email"
+              >
+                <FaEnvelope size={30} />
               </a>
             </div>
           </div>
