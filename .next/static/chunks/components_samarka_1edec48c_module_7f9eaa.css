@@ -1,0 +1,51 @@
+/* [project]/components/samarka_1edec48c.module.css [app-client] (css) */
+@font-face {
+  font-family: samarka;
+  src: url("../media/Samarka-s.p.1a5a3119.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: samarka Fallback;
+  src: local(Arial);
+  ascent-override: 89.37%;
+  descent-override: 34.14%;
+  line-gap-override: 0.0%;
+  size-adjust: 99.27%;
+}
+
+.samarka_1edec48c-module__0J-ChW__className {
+  font-family: samarka, samarka Fallback;
+}
+
+.samarka_1edec48c-module__0J-ChW__variable {
+  --font-samarka: "samarka", "samarka Fallback";
+}
+
+
+/* [project]/components/samarka_1edec48c.module.css [app-client] (css) */
+@font-face {
+  font-family: samarka;
+  src: url("../media/Samarka-s.p.1a5a3119.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: samarka Fallback;
+  src: local(Arial);
+  ascent-override: 89.37%;
+  descent-override: 34.14%;
+  line-gap-override: 0.0%;
+  size-adjust: 99.27%;
+}
+
+.samarka_1edec48c-module__0J-ChW__className {
+  font-family: samarka, samarka Fallback;
+}
+
+.samarka_1edec48c-module__0J-ChW__variable {
+  --font-samarka: "samarka", "samarka Fallback";
+}
+
+
+/*# sourceMappingURL=components_samarka_1edec48c_module_7f9eaa.css.map*/

@@ -86,13 +86,14 @@ const ImageSlider = () => {
           }}
         />
         <div
-          style={{
-            ...styles.caption,
-            fontSize: isMobile ? "20px" : "35px",
-          }}
-        >
-          {albumImages[currentIndex].name}
-        </div>
+  style={{
+    ...styles.caption,
+    fontSize: isMobile ? "20px" : "35px",
+    fontFamily: "var(--font-samarka)"
+  }}
+>
+  {albumImages[currentIndex].name}
+</div>
       </div>
 
       <button
@@ -136,7 +137,7 @@ const styles = {
   },
   caption: {
     marginTop: "8px",
-    fontFamily: "'Samarka', cursive",
+    fontFamily: "var(--font-samarka)",
     color: "#333",
   },
   button: {
