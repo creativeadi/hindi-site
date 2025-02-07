@@ -76,3 +76,107 @@ footer{
 
 }
 
+@keyframes shine {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 3s ease infinite;
+  transition: all 0.5s ease;
+}
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float-random {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-10px) translateX(3px); }
+}
+
+@keyframes title-reveal {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-title {
+  animation: title-reveal 1.5s ease-out forwards;
+}
+
+.animate-reveal {
+  opacity: 0;
+  animation: title-reveal 1.5s ease-out forwards 0.5s;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-random {
+  animation: float-random 6s ease-in-out infinite;
+}
+
+.scale-102 {
+  transform: scale(1.02);
+}
+
+/* Slower, more subtle transitions */
+.transition-all {
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 2s ease-in-out infinite;
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.animate-rotate {
+  animation: rotate-center 20s linear infinite;
+}
+
+.animate-gradient-x:hover {
+  transform: scale(1.05) rotate(3deg);
+  box-shadow: 0 0 30px rgba(251, 146, 60, 0.5);
+}
+
+/* Add smooth transitions */
+* {
+  transition: transform 0.3s ease, color 0.3s ease, opacity 0.3s ease;
+}
+
+/* Add hover effects */
+.hover-glow:hover {
+  filter: drop-shadow(0 0 10px rgba(251, 146, 60, 0.5));
+}
+
+.hover-rotate:hover {
+  transform: rotate(360deg);
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes ping-slow {
+  0% { transform: scale(1); opacity: 0.5; }
+  75%, 100% { transform: scale(1.5); opacity: 0; }
+}
+
+@keyframes rotate-center {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
