@@ -52,7 +52,13 @@ function End() {
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: styles.caption,
+                className: "font-samarka",
+                style: {
+                    marginTop: "8px",
+                    fontSize: "80px",
+                    color: "#333",
+                    textAlign: "center"
+                },
                 children: "Vasudhaiva Kutumbakam"
             }, void 0, false, {
                 fileName: "[project]/components/End.jsx",
@@ -69,7 +75,7 @@ function End() {
                     height: 500
                 }, void 0, false, {
                     fileName: "[project]/components/End.jsx",
-                    lineNumber: 48,
+                    lineNumber: 55,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     src: "/assets/img.png" // Replace with your laptop image path
@@ -79,12 +85,12 @@ function End() {
                     height: 100
                 }, void 0, false, {
                     fileName: "[project]/components/End.jsx",
-                    lineNumber: 55,
+                    lineNumber: 62,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/End.jsx",
-                lineNumber: 46,
+                lineNumber: 53,
                 columnNumber: 7
             }, this)
         ]
@@ -314,7 +320,7 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
+        fontFamily: "var(--font-samarka)",
         color: "#333"
     },
     button: {
@@ -476,7 +482,7 @@ const ImageSlider = ()=>{
                         style: {
                             ...styles.caption,
                             fontSize: isMobile ? "20px" : "35px",
-                            fontFamily: "Samarka"
+                            fontFamily: "var(--font-samarka)"
                         },
                         children: albumImages[currentIndex].name
                     }, void 0, false, {
@@ -541,7 +547,7 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "Samarka",
+        fontFamily: "var(--font-samarka)",
         color: "#333"
     },
     button: {
@@ -780,7 +786,7 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
+        fontFamily: "var(--font-samarka)",
         color: "#333"
     },
     button: {
@@ -938,9 +944,12 @@ const PhotoWithOverlay = ()=>{
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "font-samarka",
                         style: {
-                            ...styles.caption,
-                            fontSize: isMobile ? "40px" : "80px"
+                            marginTop: "1px",
+                            fontSize: isMobile ? "40px" : "80px",
+                            color: "#333",
+                            textAlign: "center"
                         },
                         children: "Photo Album"
                     }, void 0, false, {
@@ -960,30 +969,30 @@ const PhotoWithOverlay = ()=>{
                                 style: styles.albumItem,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Album_one$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/components/Photo.jsx",
-                                    lineNumber: 127,
+                                    lineNumber: 132,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 126,
+                                lineNumber: 131,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: styles.albumItem,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$KavyanjaliSec$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/components/Photo.jsx",
-                                    lineNumber: 130,
+                                    lineNumber: 135,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 129,
+                                lineNumber: 134,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Photo.jsx",
-                        lineNumber: 118,
+                        lineNumber: 123,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1000,17 +1009,17 @@ const PhotoWithOverlay = ()=>{
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Rangotsav$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 146,
+                                lineNumber: 151,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Photo.jsx",
-                            lineNumber: 140,
+                            lineNumber: 145,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Photo.jsx",
-                        lineNumber: 133,
+                        lineNumber: 138,
                         columnNumber: 17
                     }, this)
                 ]
@@ -1184,9 +1193,11 @@ function Home() {
         className: "min-h-screen flex flex-col items-center justify-center bg-[linear-gradient(179.56deg,#FFA134_0.36%,#FFB259_99.6%)] py-12",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                className: "font-samarka",
                 style: {
-                    ...styles.caption,
-                    fontSize: isMobile ? "40px" : "80px"
+                    fontSize: isMobile ? "40px" : "80px",
+                    color: "#333",
+                    marginBottom: isMobile ? "20px" : "40px"
                 },
                 children: "Meet Our Team"
             }, void 0, false, {
@@ -1210,7 +1221,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 167,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1218,7 +1229,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 172,
+                                        lineNumber: 174,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1226,13 +1237,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 173,
+                                        lineNumber: 175,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 164,
+                                lineNumber: 166,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1246,43 +1257,43 @@ function Home() {
                                         className: "bg-white p-2 rounded-full shadow-lg",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 185,
+                                            lineNumber: 187,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 179,
+                                        lineNumber: 181,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Teams.jsx",
-                                    lineNumber: 178,
+                                    lineNumber: 180,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 177,
+                                lineNumber: 179,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/Teams.jsx",
-                        lineNumber: 159,
+                        lineNumber: 161,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 157,
+                lineNumber: 159,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 192,
+                lineNumber: 194,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 193,
+                lineNumber: 195,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1301,7 +1312,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 202,
+                                        lineNumber: 204,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1309,7 +1320,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 211,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1317,13 +1328,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 210,
+                                        lineNumber: 212,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 201,
+                                lineNumber: 203,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1338,12 +1349,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/Teams.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 224,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 216,
+                                            lineNumber: 218,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1353,34 +1364,34 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/Teams.jsx",
-                                                lineNumber: 230,
+                                                lineNumber: 232,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 224,
+                                            lineNumber: 226,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Teams.jsx",
-                                    lineNumber: 215,
+                                    lineNumber: 217,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 214,
+                                lineNumber: 216,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/Teams.jsx",
-                        lineNumber: 196,
+                        lineNumber: 198,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 194,
+                lineNumber: 196,
                 columnNumber: 7
             }, this)
         ]
@@ -1481,15 +1492,16 @@ function Home() {
     };
     const isMobile = useScreenSize();
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: `min-h-screen flex flex-col items-center justify-center bg-[linear-gradient(179.56deg,#FFA134_0.36%,#FFB259_99.6%)] py-4`,
+        className: "min-h-screen flex flex-col items-center justify-center py-12",
         style: {
             marginBottom: isMobile ? "10px" : "40px"
         },
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                className: "font-samarka",
                 style: {
-                    ...styles.caption,
                     fontSize: isMobile ? "40px" : "80px",
+                    color: "#333",
                     marginBottom: isMobile ? "20px" : "40px"
                 },
                 children: "Website Development Team"
@@ -1518,7 +1530,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 104,
+                                        lineNumber: 106,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1526,7 +1538,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 111,
+                                        lineNumber: 113,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1534,13 +1546,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 114,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 103,
+                                lineNumber: 105,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1555,12 +1567,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 124,
+                                                lineNumber: 126,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 118,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1570,44 +1582,44 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 132,
+                                                lineNumber: 134,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 126,
+                                            lineNumber: 128,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WebTeam.jsx",
-                                    lineNumber: 117,
+                                    lineNumber: 119,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 116,
+                                lineNumber: 118,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/WebTeam.jsx",
-                        lineNumber: 98,
+                        lineNumber: 100,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 96,
+                lineNumber: 98,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 139,
+                lineNumber: 141,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 140,
+                lineNumber: 142,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1626,7 +1638,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 149,
+                                        lineNumber: 151,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1634,7 +1646,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 156,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1642,13 +1654,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 157,
+                                        lineNumber: 159,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 148,
+                                lineNumber: 150,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1663,12 +1675,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 169,
+                                                lineNumber: 171,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 165,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1678,34 +1690,34 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 177,
+                                                lineNumber: 179,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 171,
+                                            lineNumber: 173,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WebTeam.jsx",
-                                    lineNumber: 162,
+                                    lineNumber: 164,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 161,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/WebTeam.jsx",
-                        lineNumber: 143,
+                        lineNumber: 145,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 141,
+                lineNumber: 143,
                 columnNumber: 7
             }, this)
         ]
@@ -1752,7 +1764,7 @@ const BoxDesign = ({ pattern, altText, title, description })=>{
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute inset-0 bg-gradient-to-t from-black/90 via-black/60 to-transparent opacity-50 group-hover:opacity-80 transition-all duration-300"
+                className: "absolute inset-0 bg-gradient-to-t from-black/0 via-black/0 to-transparent opacity-0 group-hover:opacity-0 transition-all duration-300"
             }, void 0, false, {
                 fileName: "[project]/components/eventsection.jsx",
                 lineNumber: 22,
@@ -1762,9 +1774,8 @@ const BoxDesign = ({ pattern, altText, title, description })=>{
                 className: "absolute inset-0 flex flex-col items-center justify-center p-4 transform transition-all duration-500",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: `text-white text-2xl mb-2 text-center transform transition-all duration-500 ${isHovered ? 'scale-110 -translate-y-2' : 'scale-100'}`,
+                        className: `font-samarka text-white text-2xl mb-2 text-center transform transition-all duration-500 ${isHovered ? 'scale-110 -translate-y-2' : 'scale-100'}`,
                         style: {
-                            fontFamily: 'Samarkan, cursive',
                             textShadow: '3px 3px 6px rgba(0,0,0,0.9)'
                         },
                         children: title
@@ -1778,7 +1789,7 @@ const BoxDesign = ({ pattern, altText, title, description })=>{
                         children: description
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 35,
+                        lineNumber: 34,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1791,7 +1802,7 @@ const BoxDesign = ({ pattern, altText, title, description })=>{
                 className: "absolute inset-0 border-2 border-orange-300/0 group-hover:border-orange-300/50 rounded-lg transition-all duration-500"
             }, void 0, false, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
@@ -1805,10 +1816,10 @@ const HindiEvents = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
         className: "relative group mb-12 max-w-3xl mx-auto",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute -inset-1 bg-gradient-to-r from-orange-600 via-red-500 to-orange-600 rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-1000 group-hover:duration-200 animate-gradient-xy"
+                className: "absolute -inset-1 bg-gradient-to-r from-orange-600/0 via-red-500/0 to-orange-600/0 rounded-lg blur opacity-0 group-hover:opacity-0 transition duration-1000 group-hover:duration-200 animate-gradient-xy"
             }, void 0, false, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 48,
+                lineNumber: 47,
                 columnNumber: 5
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1820,19 +1831,16 @@ const HindiEvents = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
                             className: "absolute inset-0 bg-pattern opacity-0"
                         }, void 0, false, {
                             fileName: "[project]/components/eventsection.jsx",
-                            lineNumber: 51,
+                            lineNumber: 50,
                             columnNumber: 9
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 50,
+                        lineNumber: 49,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "relative text-6xl text-orange-900 flex items-center justify-center gap-6 animate-float",
-                        style: {
-                            fontFamily: 'Samarkan'
-                        },
+                        className: "relative text-6xl text-orange-900 flex items-center justify-center gap-6 animate-float font-samarka",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "text-red-700 text-5xl relative animate-pulse",
@@ -1843,13 +1851,13 @@ const HindiEvents = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/components/eventsection.jsx",
-                                        lineNumber: 59,
+                                        lineNumber: 57,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/eventsection.jsx",
-                                lineNumber: 57,
+                                lineNumber: 55,
                                 columnNumber: 9
                             }, this),
                             "Hindi Club Events",
@@ -1862,45 +1870,45 @@ const HindiEvents = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/components/eventsection.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 62,
                                         columnNumber: 11
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/eventsection.jsx",
-                                lineNumber: 62,
+                                lineNumber: 60,
                                 columnNumber: 9
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 53,
+                        lineNumber: 52,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -bottom-2 -left-2 w-6 h-6 bg-orange-400 rounded-full animate-bounce"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 67,
+                        lineNumber: 65,
                         columnNumber: 7
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -top-2 -right-2 w-6 h-6 bg-orange-400 rounded-full animate-bounce delay-300"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 68,
+                        lineNumber: 66,
                         columnNumber: 7
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 49,
+                lineNumber: 48,
                 columnNumber: 5
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/eventsection.jsx",
-        lineNumber: 47,
+        lineNumber: 46,
         columnNumber: 3
     }, this);
 const ComingSoon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1908,54 +1916,51 @@ const ComingSoon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rotate-90 origin-center group animate-sway",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                className: "text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg    hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer   group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12",
-                style: {
-                    fontFamily: 'Samarkan'
-                },
+                className: "font-samarka text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg    hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer   group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "relative z-10 animate-float-slow group-hover:text-orange-200 transition-colors duration-300",
                         children: "Coming Soon"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 82,
+                        lineNumber: 79,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 85,
+                        lineNumber: 82,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -inset-1 bg-gradient-to-r from-orange-600 to-red-600 blur opacity-0 group-hover:opacity-75 transition-all duration-500 animate-gradient-xy"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 86,
+                        lineNumber: 83,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
-                        lineNumber: 87,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 76,
+                lineNumber: 74,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/eventsection.jsx",
-            lineNumber: 75,
+            lineNumber: 73,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/eventsection.jsx",
-        lineNumber: 74,
+        lineNumber: 72,
         columnNumber: 5
     }, this);
 const BowAndArrow = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1971,35 +1976,35 @@ const BowAndArrow = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
                     className: "w-full h-auto transform hover:scale-110 transition-all duration-300    group-hover:brightness-110 group-hover:contrast-125 filter    hover:drop-shadow-[0_0_15px_rgba(251,146,60,0.6)]"
                 }, void 0, false, {
                     fileName: "[project]/components/eventsection.jsx",
-                    lineNumber: 96,
+                    lineNumber: 93,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute inset-0 bg-gradient-to-r from-transparent via-orange-500/10 to-transparent    opacity-0 group-hover:opacity-100 transition-all duration-500 animate-shine"
                 }, void 0, false, {
                     fileName: "[project]/components/eventsection.jsx",
-                    lineNumber: 105,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/eventsection.jsx",
-            lineNumber: 95,
+            lineNumber: 92,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/eventsection.jsx",
-        lineNumber: 94,
+        lineNumber: 91,
         columnNumber: 5
     }, this);
 const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-ebc3d05f04b671b4" + " " + "min-h-screen relative bg-orange-50",
+        className: "jsx-ebc3d05f04b671b4" + " " + "min-h-screen relative",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-ebc3d05f04b671b4" + " " + "absolute inset-0 bg-pattern opacity-5"
+                className: "jsx-ebc3d05f04b671b4" + " " + "absolute inset-0 bg-pattern opacity-0"
             }, void 0, false, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 114,
+                lineNumber: 111,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2013,17 +2018,17 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                 className: "jsx-ebc3d05f04b671b4" + " " + "h-full flex items-center relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ComingSoon, {}, void 0, false, {
                                     fileName: "[project]/components/eventsection.jsx",
-                                    lineNumber: 119,
+                                    lineNumber: 116,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/eventsection.jsx",
-                                lineNumber: 118,
+                                lineNumber: 115,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/eventsection.jsx",
-                            lineNumber: 117,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2033,7 +2038,7 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(HindiEvents, {}, void 0, false, {
                                         fileName: "[project]/components/eventsection.jsx",
-                                        lineNumber: 125,
+                                        lineNumber: 122,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2046,7 +2051,7 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                                 description: "A celebration of poetry and literature"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/eventsection.jsx",
-                                                lineNumber: 128,
+                                                lineNumber: 125,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BoxDesign, {
@@ -2056,7 +2061,7 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                                 description: "Festival of colors and creativity"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/eventsection.jsx",
-                                                lineNumber: 134,
+                                                lineNumber: 131,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BoxDesign, {
@@ -2066,24 +2071,24 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                                 description: "Celebrating the Hindi language"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/eventsection.jsx",
-                                                lineNumber: 140,
+                                                lineNumber: 137,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/eventsection.jsx",
-                                        lineNumber: 127,
+                                        lineNumber: 124,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/eventsection.jsx",
-                                lineNumber: 124,
+                                lineNumber: 121,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/eventsection.jsx",
-                            lineNumber: 123,
+                            lineNumber: 120,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2092,28 +2097,28 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
                                 className: "jsx-ebc3d05f04b671b4" + " " + "h-full flex items-center relative",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BowAndArrow, {}, void 0, false, {
                                     fileName: "[project]/components/eventsection.jsx",
-                                    lineNumber: 152,
+                                    lineNumber: 149,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/eventsection.jsx",
-                                lineNumber: 151,
+                                lineNumber: 148,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/eventsection.jsx",
-                            lineNumber: 150,
+                            lineNumber: 147,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/eventsection.jsx",
-                    lineNumber: 116,
+                    lineNumber: 113,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/eventsection.jsx",
-                lineNumber: 115,
+                lineNumber: 112,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -2123,7 +2128,7 @@ const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proje
         ]
     }, void 0, true, {
         fileName: "[project]/components/eventsection.jsx",
-        lineNumber: 113,
+        lineNumber: 110,
         columnNumber: 5
     }, this);
 const __TURBOPACK__default__export__ = EventPage;
