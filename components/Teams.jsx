@@ -141,7 +141,6 @@ export default function Home() {
     caption: {
       marginTop: "8px",
       fontSize: "80px",
-      fontFamily: "'Samarka', cursive", // Polaroid-style handwritten font
       color: "#333",
       textAlign: "center", // Center caption text
     },
@@ -169,8 +168,8 @@ export default function Home() {
                 width={300}
                 height={300}
               />
-              <h3 className="text-lg font-bold mt-4 text-gray-800">{profile.name}</h3>
-              <p className="text-sm text-gray-600 text-center">{profile.designation}</p>
+              <h3 className="text-lg font-bold mt-4 text-gray-800" style={{ fontFamily: "Arial, sans-serif"}}>{profile.name}</h3>
+              <p className="text-sm text-gray-600 text-center" style={{ fontFamily: "Arial, sans-serif"}}>{profile.designation}</p>
             </div>
 
             {/* Extension of the card joining the main card of Faculty */}    
@@ -206,8 +205,8 @@ export default function Home() {
                 width={300}
                 height={300}
               />
-              <h3 className="text-lg font-bold mt-4 text-gray-800">{profile.name}</h3>
-              <p className="text-sm text-gray-600 text-center">{profile.designation}</p>
+              <h3 className="text-lg font-bold mt-4 text-gray-800" style={{ fontFamily: "Arial, sans-serif"}}>{profile.name}</h3>
+              <p className="text-sm text-gray-600 text-center" style={{ fontFamily: "Arial, sans-serif"}}>{profile.designation}</p>
             </div>
 
             {/* Extension of the card joining the main card */}

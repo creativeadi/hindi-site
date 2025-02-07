@@ -78,7 +78,6 @@ const styles = {
   caption: {
     marginTop: "8px",
     fontSize: "80px",
-    fontFamily: "'Samarka', cursive",
     color: "#333",
     textAlign: "center",
   },

@@ -8,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="font-samarka"> {/* Optional Tailwind class */}
         {children}
       </body>
     </html>

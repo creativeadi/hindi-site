@@ -110,7 +110,6 @@ const styles = {
     caption: {
         marginTop: "8px",
         fontSize: "80px",
-        fontFamily: "'Samarka', cursive",
         color: "#333",
         textAlign: "center"
     },
@@ -328,7 +327,6 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
         color: "#333"
     },
     button: {
@@ -563,7 +561,6 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
         color: "#333"
     },
     button: {
@@ -811,7 +808,6 @@ const styles = {
     },
     caption: {
         marginTop: "8px",
-        fontFamily: "'Samarka', cursive",
         color: "#333"
     },
     button: {
@@ -903,7 +899,6 @@ const styles = {
     caption: {
         marginTop: "1px",
         fontSize: "80px",
-        fontFamily: "'Samarka', cursive",
         color: "#333",
         textAlign: "center"
     },
@@ -963,12 +958,12 @@ const PhotoWithOverlay = ()=>{
                     height: isMobile ? 300 : 400
                 }, void 0, false, {
                     fileName: "[project]/components/Photo.jsx",
-                    lineNumber: 106,
+                    lineNumber: 105,
                     columnNumber: 17
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Photo.jsx",
-                lineNumber: 105,
+                lineNumber: 104,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -985,7 +980,7 @@ const PhotoWithOverlay = ()=>{
                         children: "Photo Album"
                     }, void 0, false, {
                         fileName: "[project]/components/Photo.jsx",
-                        lineNumber: 115,
+                        lineNumber: 114,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1000,30 +995,30 @@ const PhotoWithOverlay = ()=>{
                                 style: styles.albumItem,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Album_one$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/components/Photo.jsx",
-                                    lineNumber: 127,
+                                    lineNumber: 126,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 126,
+                                lineNumber: 125,
                                 columnNumber: 21
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 style: styles.albumItem,
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$KavyanjaliSec$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                     fileName: "[project]/components/Photo.jsx",
-                                    lineNumber: 130,
+                                    lineNumber: 129,
                                     columnNumber: 25
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 129,
+                                lineNumber: 128,
                                 columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Photo.jsx",
-                        lineNumber: 118,
+                        lineNumber: 117,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1040,29 +1035,29 @@ const PhotoWithOverlay = ()=>{
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Rangotsav$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                 fileName: "[project]/components/Photo.jsx",
-                                lineNumber: 146,
+                                lineNumber: 145,
                                 columnNumber: 25
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Photo.jsx",
-                            lineNumber: 140,
+                            lineNumber: 139,
                             columnNumber: 21
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Photo.jsx",
-                        lineNumber: 133,
+                        lineNumber: 132,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Photo.jsx",
-                lineNumber: 114,
+                lineNumber: 113,
                 columnNumber: 13
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Photo.jsx",
-        lineNumber: 98,
+        lineNumber: 97,
         columnNumber: 9
     }, this);
 };
@@ -1230,7 +1225,6 @@ function Home() {
         caption: {
             marginTop: "8px",
             fontSize: "80px",
-            fontFamily: "'Samarka', cursive",
             color: "#333",
             textAlign: "center"
         }
@@ -1247,7 +1241,7 @@ function Home() {
                 children: "Meet Our Team"
             }, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 154,
+                lineNumber: 153,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1266,29 +1260,35 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 165,
+                                        lineNumber: 164,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-lg font-bold mt-4 text-gray-800",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 172,
+                                        lineNumber: 171,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm text-gray-600 text-center",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 173,
+                                        lineNumber: 172,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 164,
+                                lineNumber: 163,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1302,43 +1302,43 @@ function Home() {
                                         className: "bg-white p-2 rounded-full shadow-lg",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 185,
+                                            lineNumber: 184,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 179,
+                                        lineNumber: 178,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Teams.jsx",
-                                    lineNumber: 178,
+                                    lineNumber: 177,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 177,
+                                lineNumber: 176,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/Teams.jsx",
-                        lineNumber: 159,
+                        lineNumber: 158,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 157,
+                lineNumber: 156,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: "[project]/components/Teams.jsx",
+                lineNumber: 191,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
                 lineNumber: 192,
-                columnNumber: 7
-            }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
-                fileName: "[project]/components/Teams.jsx",
-                lineNumber: 193,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1357,29 +1357,35 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 202,
+                                        lineNumber: 201,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-lg font-bold mt-4 text-gray-800",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 208,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm text-gray-600 text-center",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/Teams.jsx",
-                                        lineNumber: 210,
+                                        lineNumber: 209,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 201,
+                                lineNumber: 200,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1394,12 +1400,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/Teams.jsx",
-                                                lineNumber: 222,
+                                                lineNumber: 221,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 216,
+                                            lineNumber: 215,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1409,40 +1415,40 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/Teams.jsx",
-                                                lineNumber: 230,
+                                                lineNumber: 229,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Teams.jsx",
-                                            lineNumber: 224,
+                                            lineNumber: 223,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Teams.jsx",
-                                    lineNumber: 215,
+                                    lineNumber: 214,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Teams.jsx",
-                                lineNumber: 214,
+                                lineNumber: 213,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/Teams.jsx",
-                        lineNumber: 196,
+                        lineNumber: 195,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Teams.jsx",
-                lineNumber: 194,
+                lineNumber: 193,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Teams.jsx",
-        lineNumber: 153,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 }
@@ -1542,7 +1548,7 @@ function Home() {
         caption: {
             marginTop: "0px",
             fontSize: "80px",
-            fontFamily: "'Samarka', cursive",
+            //fontFamily: "'Arial', sans-serif", // Polaroid-style handwritten font
             color: "#333",
             textAlign: "center"
         }
@@ -1591,6 +1597,9 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-lg font-bold mt-4 text-gray-800",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
@@ -1599,6 +1608,9 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm text-gray-600 text-center",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
@@ -1699,6 +1711,9 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                         className: "text-lg font-bold mt-4 text-gray-800",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
@@ -1707,6 +1722,9 @@ function Home() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "text-sm text-gray-600 text-center",
+                                        style: {
+                                            fontFamily: "Arial, sans-serif"
+                                        },
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",

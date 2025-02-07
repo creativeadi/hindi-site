@@ -63,10 +63,10 @@ const Footer = () => {
             </div>
           </div>
           {/* Footer Text */}
-          <p className="text-lg text-gray-500 my-1">
+          <p className="text-lg text-gray-500 my-1" style={{ fontFamily: "Arial, sans-serif"}}>
             Copyright &copy; 2024 | Designed by <span className="font-semibold">Technical Team, Hindi Club</span>
           </p>
-          <p className="text-lg text-gray-500 font-extrabold">VIT Bhopal</p>
+          <p className="text-lg text-gray-500 font-extrabold" style={{ fontFamily: "Arial, sans-serif"}}>VIT Bhopal</p>
         </div>
 
         {/* VIT Bhopal Logo */}

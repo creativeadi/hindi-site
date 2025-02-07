@@ -53,7 +53,6 @@ const styles = {
     caption: {
         marginTop: "1px",
         fontSize: "80px",
-        fontFamily: "'Samarka', cursive", // Polaroid-style handwritten font
         color: "#333",
         textAlign: "center", // Center caption text
     },
