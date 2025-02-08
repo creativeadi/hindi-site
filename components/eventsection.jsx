@@ -2,15 +2,24 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 const BoxDesign = ({ pattern, altText, title, description }) => {
   const [isHovered, setIsHovered] = useState(false);
+  const router = useRouter();
+  
+  const handleClick = () => {
+    if (title === "Kavyamanch") {
+      router.push('/kavyanjali');
+    }
+  };
   
   return (
     <div 
       className="w-full max-w-md mx-auto relative overflow-hidden rounded-lg group cursor-pointer transform transition-all duration-500 hover:scale-105"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={handleClick}
     >
       <Image
         src={pattern}
@@ -69,19 +78,19 @@ const HindiEvents = () => (
 );
 
 const ComingSoon = () => (
-  <div className="absolute -left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700">
-    <div className="rotate-90 origin-center group animate-sway">
+  <div className="sm:absolute relative -left-0 sm:-left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700 mb-6 sm:mb-0">
+    <div className="rotate-0 sm:rotate-90 origin-center group animate-sway">
       <div 
-        className="font-samarka text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg 
-        hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer
-        group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12"
+        className="font-samarka text-3xl sm:text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 
+        text-white p-4 sm:p-6 rounded-lg shadow-lg hover:shadow-[0_0_30px_rgba(255,146,60,0.6)] 
+        transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer
+        group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12
+        w-full text-center"
       >
-        <span className="relative z-10 animate-float-slow group-hover:text-orange-200 transition-colors duration-300">
+        <span className="relative z-10 animate-float-slow group-hover:text-orange-100 transition-colors duration-300">
           Coming Soon
         </span>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-        <div className="absolute -inset-1 bg-gradient-to-r from-orange-600 to-red-600 blur opacity-0 group-hover:opacity-75 transition-all duration-500 animate-gradient-xy"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500/80 via-orange-500/80 to-red-500/80 opacity-50"></div>
       </div>
     </div>
   </div>
@@ -106,117 +115,116 @@ const BowAndArrow = () => (
 );
 
 const EventPage = () => (
-    
-    <div className="min-h-screen relative">
-      <div className="absolute inset-0 bg-pattern opacity-0"></div>
-      <div className="container mx-auto pl-16 pr-8 py-12 relative z-10"> 
-        <div className="grid grid-cols-12 gap-8">
-          <div className="col-span-3">
-            <div className="h-full flex items-center relative">
-              <ComingSoon />
-            </div>
+  <div className="min-h-screen relative px-4 sm:px-0">
+    <div className="absolute inset-0 bg-pattern opacity-0"></div>
+    <div className="container mx-auto py-8 sm:py-12 relative z-10"> 
+      <div className="grid grid-cols-1 sm:grid-cols-12 gap-8">
+        <div className="sm:col-span-3">
+          <div className="h-full flex items-center relative">
+            <ComingSoon />
           </div>
+        </div>
   
-          <div className="col-span-6 flex flex-col items-center">
-            <div className="w-full space-y-6">
-              <HindiEvents />
-              
-              <div className="space-y-6 w-full flex flex-col items-center">
-                <BoxDesign 
-                  pattern="/image.png" 
-                  altText="Kavyanjali Event" 
-                  title="Kavyanjali 2.0"
-                  description="A celebration of poetry and literature"
-                />
-                <BoxDesign 
-                  pattern="/p2.png" 
-                  altText="Rangotsav Event" 
-                  title="Rangotsav"
-                  description="Festival of colors and creativity"
-                />
-                <BoxDesign 
-                  pattern="/p3.png" 
-                  altText="Hindi Diwas Event" 
-                  title="Hindi Diwas"
-                  description="Celebrating the Hindi language"
-                />
-              </div>
-            </div>
-          </div>
-  
-          <div className="col-span-3">
-            <div className="h-full flex items-center relative">
-              <BowAndArrow />
+        <div className="sm:col-span-6 flex flex-col items-center">
+          <div className="w-full space-y-6">
+            <HindiEvents />
+            
+            <div className="space-y-6 w-full flex flex-col items-center">
+              <BoxDesign 
+                pattern="/image.png" 
+                altText="Kavyamanch Event" 
+                title="Kavyamanch"
+                description="A celebration of poetry and literature"
+              />
+              <BoxDesign 
+                pattern="/p2.png" 
+                altText="Rangotsav Event" 
+                title="Rangotsav"
+                description="Festival of colors and creativity"
+              />
+              <BoxDesign 
+                pattern="/p3.png" 
+                altText="Hindi Diwas Event" 
+                title="Hindi Diwas"
+                description="Celebrating the Hindi language"
+              />
             </div>
           </div>
         </div>
+  
+        <div className="hidden sm:block sm:col-span-3">
+          <div className="h-full flex items-center relative">
+            <BowAndArrow />
+          </div>
+        </div>
       </div>
-      <style jsx global>{`
-      .bg-pattern {
-        background-image: url('/bg.png');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        opacity: 1.0;
-      }
-        @keyframes sway {
-        0%, 100% { transform: rotate(90deg) translateX(0px); }
-        25% { transform: rotate(88deg) translateX(5px); }
-        75% { transform: rotate(92deg) translateX(-5px); }
-      }
+    </div>
+    <style jsx global>{`
+    .bg-pattern {
+      background-image: url('/bg.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 1.0;
+    }
+      @keyframes sway {
+      0%, 100% { transform: rotate(90deg) translateX(0px); }
+      25% { transform: rotate(88deg) translateX(5px); }
+      75% { transform: rotate(92deg) translateX(-5px); }
+    }
 
-      @keyframes float-slow {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-5px); }
-      }
+    @keyframes float-slow {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
 
-      .animate-sway {
-        animation: sway 6s ease-in-out infinite;
-      }
+    .animate-sway {
+      animation: sway 6s ease-in-out infinite;
+    }
 
-      .animate-float-slow {
-        animation: float-slow 3s ease-in-out infinite;
-      }
-      @keyframes bowMovement {
-        0% { transform: translateX(0) translateY(-50%); }
-        25% { transform: translateX(-10px) translateY(-52%) rotate(-2deg); }
-        50% { transform: translateX(-5px) translateY(-50%) rotate(0deg); }
-        75% { transform: translateX(-8px) translateY(-48%) rotate(2deg); }
-        100% { transform: translateX(0) translateY(-50%) rotate(0deg); }
-      }
-      @keyframes float {
-        0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-10px); }
-      }
-      @keyframes gradient-x {
-        0% { background-position: 0% 50%; }
-        50% { background-position: 100% 50%; }
-        100% { background-position: 0% 50%; }
-      }
-      @keyframes gradient-pulse {
-        0% { background-size: 100% 100%; }
-        50% { background-size: 120% 120%; }
-        100% { background-size: 100% 100%; }
-      }
-      .animate-bow {
-        animation: bowMovement 4s ease-in-out infinite;
-      }
-      .animate-float {
-        animation: float 3s ease-in-out infinite;
-      }
-      .animate-gradient-x {
-        animation: gradient-x 3s ease infinite;
-        background-size: 200% 200%;
-      }
-      .animate-gradient-pulse {
-        animation: gradient-pulse 2s ease-in-out infinite;
-      }
-      .animate-gradient-xy {
-        animation: gradient-x 10s ease infinite;
-        background-size: 400% 400%;
-      }
-    `}</style>
-  </div>
+    .animate-float-slow {
+      animation: float-slow 3s ease-in-out infinite;
+    }
+    @keyframes bowMovement {
+      0% { transform: translateX(0) translateY(-50%); }
+      25% { transform: translateX(-10px) translateY(-52%) rotate(-2deg); }
+      50% { transform: translateX(-5px) translateY(-50%) rotate(0deg); }
+      75% { transform: translateX(-8px) translateY(-48%) rotate(2deg); }
+      100% { transform: translateX(0) translateY(-50%) rotate(0deg); }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes gradient-x {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    @keyframes gradient-pulse {
+      0% { background-size: 100% 100%; }
+      50% { background-size: 120% 120%; }
+      100% { background-size: 100% 100%; }
+    }
+    .animate-bow {
+      animation: bowMovement 4s ease-in-out infinite;
+    }
+    .animate-float {
+      animation: float 3s ease-in-out infinite;
+    }
+    .animate-gradient-x {
+      animation: gradient-x 3s ease infinite;
+      background-size: 200% 200%;
+    }
+    .animate-gradient-pulse {
+      animation: gradient-pulse 2s ease-in-out infinite;
+    }
+    .animate-gradient-xy {
+      animation: gradient-x 10s ease infinite;
+      background-size: 400% 400%;
+    }
+  `}</style>
+</div>
 );
 
 export default EventPage;

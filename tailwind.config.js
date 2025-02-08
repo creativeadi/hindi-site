@@ -5,6 +5,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{js,jsx}',
   ],
   theme: {
   	extend: {
@@ -12,8 +13,27 @@ module.exports = {
 			samarka: ['var(--font-samarka)'],
 		  },
   		colors: {
-  			background: 'var(--background)',
-  			foreground: 'var(--foreground)',
+  			border: "hsl(var(--border))",
+  			input: "hsl(var(--input))",
+  			ring: "hsl(var(--ring))",
+  			background: "hsl(var(--background))",
+  			foreground: "hsl(var(--foreground))",
+  			primary: {
+  				DEFAULT: "hsl(var(--primary))",
+  				foreground: "hsl(var(--primary-foreground))",
+  			},
+  			secondary: {
+  				DEFAULT: "hsl(var(--secondary))",
+  				foreground: "hsl(var(--secondary-foreground))",
+  			},
+  			destructive: {
+  				DEFAULT: "hsl(var(--destructive))",
+  				foreground: "hsl(var(--destructive-foreground))",
+  			},
+  			card: {
+  				DEFAULT: "hsl(var(--card))",
+  				foreground: "hsl(var(--card-foreground))",
+  			},
         yellow: '#FFD8B4',
         orange: '#FFB259'
   		},
