@@ -86,15 +86,24 @@ footer{
 }
 
 .animate-gradient-x {
-  background-size: 200% 200%;
-  animation: gradient-x 3s ease infinite;
-  transition: all 0.5s ease;
+  background-size: 200% 100%;
+  animation: gradient-x 8s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 @keyframes gradient-x {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes float-random {
@@ -146,9 +155,10 @@ footer{
   animation: rotate-center 20s linear infinite;
 }
 
+/* Remove the hover transform since we want the title to be static */
 .animate-gradient-x:hover {
-  transform: scale(1.05) rotate(3deg);
-  box-shadow: 0 0 30px rgba(251, 146, 60, 0.5);
+  transform: none;
+  box-shadow: none;
 }
 
 /* Add smooth transitions */
@@ -178,5 +188,43 @@ footer{
 @keyframes rotate-center {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.animate-shimmer {
+  background-size: 200% auto;
+  animation: shimmer 3s linear infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Add a new floating animation for Devanagari symbols */
+@keyframes float {
+  0%, 100% { 
+    transform: translateY(0) rotate(var(--rotate-angle, 0deg)); 
+  }
+  50% { 
+    transform: translateY(-10px) rotate(var(--rotate-angle, 0deg)); 
+  }
+}
+
+/* Enhanced pulse animation */
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+
+.animate-pulse {
+  animation: pulse 2s ease-in-out infinite;
 }
 

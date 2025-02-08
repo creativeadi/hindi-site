@@ -2270,7 +2270,7 @@ const ComingSoon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
         className: "absolute -left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "rotate-90 origin-center group animate-sway",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "font-samarka text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg    hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer   group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2279,44 +2279,44 @@ const ComingSoon = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$proj
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
                         lineNumber: 79,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
                         lineNumber: 82,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute -inset-1 bg-gradient-to-r from-orange-600 to-red-600 blur opacity-0 group-hover:opacity-75 transition-all duration-500 animate-gradient-xy"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
                         lineNumber: 83,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     }, void 0, false, {
                         fileName: "[project]/components/eventsection.jsx",
                         lineNumber: 84,
-                        columnNumber: 11
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/eventsection.jsx",
                 lineNumber: 74,
-                columnNumber: 9
+                columnNumber: 7
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/eventsection.jsx",
             lineNumber: 73,
-            columnNumber: 7
+            columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/eventsection.jsx",
         lineNumber: 72,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 _c2 = ComingSoon;
 const BowAndArrow = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2333,25 +2333,25 @@ const BowAndArrow = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$pro
                 }, void 0, false, {
                     fileName: "[project]/components/eventsection.jsx",
                     lineNumber: 93,
-                    columnNumber: 9
+                    columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute inset-0 bg-gradient-to-r from-transparent via-orange-500/10 to-transparent    opacity-0 group-hover:opacity-100 transition-all duration-500 animate-shine"
                 }, void 0, false, {
                     fileName: "[project]/components/eventsection.jsx",
                     lineNumber: 102,
-                    columnNumber: 9
+                    columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/eventsection.jsx",
             lineNumber: 92,
-            columnNumber: 7
+            columnNumber: 5
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/eventsection.jsx",
         lineNumber: 91,
-        columnNumber: 5
+        columnNumber: 3
     }, this);
 _c3 = BowAndArrow;
 const EventPage = ()=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2639,19 +2639,41 @@ var _s = __turbopack_refresh__.signature();
 ;
 const Countdown = ({ onCountdownComplete })=>{
     _s();
+    const initialStarPositions = Array(10).fill(null).map((_, i)=>({
+            left: `${i % 5 * 25}%`,
+            top: `${Math.floor(i / 5) * 50}%`,
+            delay: '0s'
+        }));
     const [timeLeft, setTimeLeft] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
         days: 0,
         hours: 0,
         minutes: 0,
-        seconds: 10
+        seconds: 20
     });
     const [fadeOut, setFadeOut] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [pulseEffect, setPulseEffect] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [starPositions, setStarPositions] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(initialStarPositions);
+    const [isClient, setIsClient] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        setIsClient(true);
+    }, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        if (isClient) {
+            const positions = Array(10).fill(null).map(()=>({
+                    left: `${Math.random() * 100}%`,
+                    top: `${Math.random() * 100}%`,
+                    delay: `${Math.random() * 5}s`
+                }));
+            setStarPositions(positions);
+        }
+    }, [
+        isClient
+    ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         let targetDate = localStorage.getItem('countdownTarget');
         if (!targetDate) {
             const newTarget = new Date();
-            newTarget.setSeconds(newTarget.getSeconds() + 10); // Set to 10 seconds
+            newTarget.setSeconds(newTarget.getSeconds() + 20);
             targetDate = newTarget.getTime().toString();
             localStorage.setItem('countdownTarget', targetDate);
         }
@@ -2668,7 +2690,6 @@ const Countdown = ({ onCountdownComplete })=>{
                 clearInterval(timer);
                 return;
             }
-            // Only show seconds for 10-second countdown
             setTimeLeft({
                 days: 0,
                 hours: 0,
@@ -2693,19 +2714,17 @@ const Countdown = ({ onCountdownComplete })=>{
                     className: "absolute inset-0 bg-pattern opacity-5"
                 }, void 0, false, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 61,
+                    lineNumber: 83,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute inset-0 overflow-hidden pointer-events-none",
-                    children: [
-                        ...Array(10)
-                    ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    children: starPositions.map((position, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute animate-float-random",
                             style: {
-                                left: `${Math.random() * 100}%`,
-                                top: `${Math.random() * 100}%`,
-                                animationDelay: `${Math.random() * 5}s`,
+                                left: position.left,
+                                top: position.top,
+                                animationDelay: position.delay,
                                 opacity: 0.2
                             },
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2713,46 +2732,46 @@ const Countdown = ({ onCountdownComplete })=>{
                                 children: "✦"
                             }, void 0, false, {
                                 fileName: "[project]/components/Countdown.jsx",
-                                lineNumber: 75,
+                                lineNumber: 97,
                                 columnNumber: 15
                             }, this)
                         }, i, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 65,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 63,
+                    lineNumber: 85,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "text-center p-8 relative z-10",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "font-samarka text-6xl text-orange-900 mb-8 relative animate-title",
+                            className: "font-samarka text-8xl text-orange-1500 mb-8 relative animate-title",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-red-700 text-5xl relative mr-4",
+                                    className: "text-red-700 text-15xl relative mr-4",
                                     children: "✦"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 82,
+                                    lineNumber: 104,
                                     columnNumber: 13
                                 }, this),
                                 "Hindi Club Website",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "text-red-700 text-5xl relative ml-4",
+                                    className: "text-red-700 text-15xl relative ml-4",
                                     children: "✦"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 84,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 81,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2760,126 +2779,128 @@ const Countdown = ({ onCountdownComplete })=>{
                             children: "Revealing Soon"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 87,
+                            lineNumber: 109,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex justify-center gap-6 mb-12",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: `text-center transform transition-all duration-200 ${pulseEffect ? 'scale-102' : 'scale-100'}`,
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-28 h-28 bg-gradient-to-r from-orange-400 to-orange-500    rounded-lg shadow-lg flex items-center justify-center mb-2   transition-all duration-300 hover:shadow-xl relative overflow-hidden",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-t from-black/5 to-transparent"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Countdown.jsx",
-                                                lineNumber: 101,
-                                                columnNumber: 17
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "font-samarka text-5xl text-white relative z-10",
-                                                children: timeLeft.seconds.toString().padStart(2, '0')
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/Countdown.jsx",
-                                                lineNumber: 102,
-                                                columnNumber: 17
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
-                                        fileName: "[project]/components/Countdown.jsx",
-                                        lineNumber: 98,
-                                        columnNumber: 15
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "font-samarka text-2xl text-orange-800 capitalize block",
-                                        children: "seconds"
+                            className: "relative flex justify-center gap-6 mb-12",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute -left-32 top-1/2 -translate-y-1/2 opacity-30",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/bow copy.png",
+                                        alt: "Left Arrow",
+                                        width: 200,
+                                        height: 200,
+                                        className: "animate-float rotate-[30deg] scale-y-[-1]"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Countdown.jsx",
-                                        lineNumber: 106,
+                                        lineNumber: 115,
                                         columnNumber: 15
                                     }, this)
-                                ]
-                            }, void 0, true, {
-                                fileName: "[project]/components/Countdown.jsx",
-                                lineNumber: 93,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Countdown.jsx",
+                                    lineNumber: 114,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: `text-center transform transition-all duration-200 ${pulseEffect ? 'scale-102' : 'scale-100'}`,
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "w-28 h-28 bg-gradient-to-r from-orange-400 to-orange-500    rounded-lg shadow-lg flex items-center justify-center mb-2   transition-all duration-300 hover:shadow-xl relative overflow-hidden",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "absolute inset-0 bg-gradient-to-t from-black/5 to-transparent"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Countdown.jsx",
+                                                    lineNumber: 132,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "font-samarka text-5xl text-white relative z-10",
+                                                    children: timeLeft.seconds.toString().padStart(2, '0')
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Countdown.jsx",
+                                                    lineNumber: 133,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Countdown.jsx",
+                                            lineNumber: 129,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            className: "font-samarka text-2xl text-orange-800 capitalize block",
+                                            children: "Seconds"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Countdown.jsx",
+                                            lineNumber: 137,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Countdown.jsx",
+                                    lineNumber: 124,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute -right-32 top-1/2 -translate-y-1/2 opacity-30",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: "/bow copy.png",
+                                        alt: "Right Arrow",
+                                        width: 200,
+                                        height: 200,
+                                        className: "animate-float rotate-[30deg]"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Countdown.jsx",
+                                        lineNumber: 144,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Countdown.jsx",
+                                    lineNumber: 143,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 91,
+                            lineNumber: 113,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute -bottom-3 -left-3 w-6 h-6 bg-orange-400/50 rounded-full animate-ping-slow"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 112,
+                            lineNumber: 155,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute -top-3 -right-3 w-6 h-6 bg-orange-400/50 rounded-full animate-ping-slow delay-500"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 113,
+                            lineNumber: 156,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 80,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute -left-16 top-1/2 -translate-y-1/2 opacity-20",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/bow copy.png",
-                        alt: "Decorative Bow Left",
-                        width: 200,
-                        height: 200,
-                        className: "animate-float"
-                    }, void 0, false, {
-                        fileName: "[project]/components/Countdown.jsx",
-                        lineNumber: 117,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 116,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "absolute -right-16 top-1/2 -translate-y-1/2 opacity-20",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        src: "/bow copy.png",
-                        alt: "Decorative Bow Right",
-                        width: 200,
-                        height: 200,
-                        className: "animate-float delay-500"
-                    }, void 0, false, {
-                        fileName: "[project]/components/Countdown.jsx",
-                        lineNumber: 126,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 125,
+                    lineNumber: 102,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Countdown.jsx",
-            lineNumber: 60,
+            lineNumber: 82,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Countdown.jsx",
-        lineNumber: 59,
+        lineNumber: 81,
         columnNumber: 5
     }, this);
 };
-_s(Countdown, "WSMSzg6Acd0OzGTBU6r5P3K1jDI=");
+_s(Countdown, "v+ch5vE8VRA7Oo+xNxjUrvKo0+I=");
 _c = Countdown;
 const __TURBOPACK__default__export__ = Countdown;
 var _c;

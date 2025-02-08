@@ -4,21 +4,44 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 const Countdown = ({ onCountdownComplete }) => {
+  const initialStarPositions = Array(10).fill(null).map((_, i) => ({
+    left: `${((i % 5) * 25)}%`,  // Creates a 5x2 grid
+    top: `${Math.floor(i / 5) * 50}%`,
+    delay: '0s'
+  }));
+
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
     minutes: 0,
-    seconds: 10
+    seconds: 20
   });
   const [fadeOut, setFadeOut] = useState(false);
   const [pulseEffect, setPulseEffect] = useState(false);
+  const [starPositions, setStarPositions] = useState(initialStarPositions);
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
+
+  useEffect(() => {
+    if (isClient) {
+      const positions = Array(10).fill(null).map(() => ({
+        left: `${Math.random() * 100}%`,
+        top: `${Math.random() * 100}%`,
+        delay: `${Math.random() * 5}s`,
+      }));
+      setStarPositions(positions);
+    }
+  }, [isClient]);
 
   useEffect(() => {
     let targetDate = localStorage.getItem('countdownTarget');
     
     if (!targetDate) {
       const newTarget = new Date();
-      newTarget.setSeconds(newTarget.getSeconds() + 10); // Set to 10 seconds
+      newTarget.setSeconds(newTarget.getSeconds() + 20); 
       targetDate = newTarget.getTime().toString();
       localStorage.setItem('countdownTarget', targetDate);
     }
@@ -38,7 +61,6 @@ const Countdown = ({ onCountdownComplete }) => {
         return;
       }
 
-      // Only show seconds for 10-second countdown
       setTimeLeft({
         days: 0,
         hours: 0,
@@ -61,14 +83,14 @@ const Countdown = ({ onCountdownComplete }) => {
         <div className="absolute inset-0 bg-pattern opacity-5"></div>
         
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          {[...Array(10)].map((_, i) => (
+          {starPositions.map((position, i) => (
             <div
               key={i}
               className="absolute animate-float-random"
               style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 5}s`,
+                left: position.left,
+                top: position.top,
+                animationDelay: position.delay,
                 opacity: 0.2,
               }}
             >
@@ -78,18 +100,27 @@ const Countdown = ({ onCountdownComplete }) => {
         </div>
 
         <div className="text-center p-8 relative z-10">
-          <h1 className="font-samarka text-6xl text-orange-900 mb-8 relative animate-title">
-            <span className="text-red-700 text-5xl relative mr-4">✦</span>
+          <h1 className="font-samarka text-8xl text-orange-1500 mb-8 relative animate-title">
+            <span className="text-red-700 text-15xl relative mr-4">✦</span>
             Hindi Club Website
-            <span className="text-red-700 text-5xl relative ml-4">✦</span>
+            <span className="text-red-700 text-15xl relative ml-4">✦</span>
           </h1>
           
           <h2 className="font-samarka text-4xl text-orange-800 mb-12 animate-reveal">
             Revealing Soon
           </h2>
 
-          <div className="flex justify-center gap-6 mb-12">
-            {/* Only show seconds counter */}
+          <div className="relative flex justify-center gap-6 mb-12">
+            <div className="absolute -left-32 top-1/2 -translate-y-1/2 opacity-30">
+              <Image
+                src="/bow copy.png"
+                alt="Left Arrow"
+                width={200}
+                height={200}
+                className="animate-float rotate-[30deg] scale-y-[-1]"
+              />
+            </div>
+
             <div 
               className={`text-center transform transition-all duration-200 ${
                 pulseEffect ? 'scale-102' : 'scale-100'
@@ -104,33 +135,29 @@ const Countdown = ({ onCountdownComplete }) => {
                 </span>
               </div>
               <span className="font-samarka text-2xl text-orange-800 capitalize block">
-                seconds
+                Seconds
               </span>
+            </div>
+
+            {/* Right Arrow */}
+            <div className="absolute -right-32 top-1/2 -translate-y-1/2 opacity-30">
+              <Image
+                src="/bow copy.png"
+                alt="Right Arrow"
+                width={200}
+                height={200}
+                className="animate-float rotate-[30deg]"
+              />
             </div>
           </div>
 
+          {/* Corner decorations */}
           <div className="absolute -bottom-3 -left-3 w-6 h-6 bg-orange-400/50 rounded-full animate-ping-slow"></div>
           <div className="absolute -top-3 -right-3 w-6 h-6 bg-orange-400/50 rounded-full animate-ping-slow delay-500"></div>
         </div>
 
-        <div className="absolute -left-16 top-1/2 -translate-y-1/2 opacity-20">
-          <Image
-            src="/bow copy.png"
-            alt="Decorative Bow Left"
-            width={200}
-            height={200}
-            className="animate-float"
-          />
-        </div>
-        <div className="absolute -right-16 top-1/2 -translate-y-1/2 opacity-20">
-          <Image
-            src="/bow copy.png"
-            alt="Decorative Bow Right"
-            width={200}
-            height={200}
-            className="animate-float delay-500"
-          />
-        </div>
+       
+        
       </div>
     </div>
   );
