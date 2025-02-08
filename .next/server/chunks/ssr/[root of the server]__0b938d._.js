@@ -385,8 +385,15 @@ const KavyanjaliPage = ()=>{
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-gradient-to-br from-orange-100 via-orange-200 to-orange-100 p-4 sm:p-8 relative overflow-hidden",
+        className: "min-h-screen bg-[url('/bg.png')] bg-cover bg-fixed p-4 sm:p-8 relative overflow-hidden",
         children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute inset-0 bg-gradient-to-b from-orange-100/90 to-orange-200/90 backdrop-blur-sm"
+            }, void 0, false, {
+                fileName: "[project]/components/KavyanjaliPage.jsx",
+                lineNumber: 72,
+                columnNumber: 7
+            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$particles$2f$esm$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"], {
                 id: "tsparticles",
                 init: particlesInit,
@@ -394,20 +401,11 @@ const KavyanjaliPage = ()=>{
                 className: "absolute inset-0"
             }, void 0, false, {
                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                lineNumber: 73,
+                lineNumber: 75,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
-                initial: {
-                    opacity: 0
-                },
-                animate: {
-                    opacity: 1
-                },
-                transition: {
-                    duration: 1
-                },
-                className: "max-w-7xl mx-auto relative z-10",
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute top-0 left-0 w-full h-full pointer-events-none",
@@ -416,27 +414,27 @@ const KavyanjaliPage = ()=>{
                                 className: "absolute top-10 left-10 w-32 h-32 bg-orange-300/20 rounded-full blur-3xl animate-pulse"
                             }, void 0, false, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 89,
+                                lineNumber: 86,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute bottom-10 right-10 w-32 h-32 bg-red-300/20 rounded-full blur-3xl animate-pulse delay-700"
                             }, void 0, false, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 90,
+                                lineNumber: 87,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "absolute top-1/4 right-1/4 w-24 h-24 bg-yellow-300/20 rounded-full blur-2xl animate-pulse delay-300"
                             }, void 0, false, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 91,
+                                lineNumber: 88,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                        lineNumber: 88,
+                        lineNumber: 85,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -472,7 +470,7 @@ const KavyanjaliPage = ()=>{
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 102,
+                                        lineNumber: 99,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -483,7 +481,7 @@ const KavyanjaliPage = ()=>{
                                                 children: "काव्यमंच"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                lineNumber: 116,
+                                                lineNumber: 113,
                                                 columnNumber: 15
                                             }, this),
                                             "काव्यमंच",
@@ -503,13 +501,13 @@ const KavyanjaliPage = ()=>{
                                                 children: "Kavyamanch"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                lineNumber: 118,
+                                                lineNumber: 115,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 115,
+                                        lineNumber: 112,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -531,13 +529,13 @@ const KavyanjaliPage = ()=>{
                                         children: "✦"
                                     }, void 0, false, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 128,
+                                        lineNumber: 125,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 101,
+                                lineNumber: 98,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -558,19 +556,19 @@ const KavyanjaliPage = ()=>{
                                                     className: "w-4 h-4 mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 147,
                                                     columnNumber: 17
                                                 }, this),
                                                 " 20th February"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 149,
+                                            lineNumber: 146,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 145,
+                                        lineNumber: 142,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -588,19 +586,19 @@ const KavyanjaliPage = ()=>{
                                                     className: "w-4 h-4 mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 155,
                                                     columnNumber: 17
                                                 }, this),
                                                 " 2PM - 5PM"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 157,
+                                            lineNumber: 154,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 153,
+                                        lineNumber: 150,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -618,35 +616,35 @@ const KavyanjaliPage = ()=>{
                                                     className: "w-4 h-4 mr-2"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 166,
+                                                    lineNumber: 163,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Open Air Auditorium"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 165,
+                                            lineNumber: 162,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                                        lineNumber: 161,
+                                        lineNumber: 158,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 144,
+                                lineNumber: 141,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                        lineNumber: 95,
+                        lineNumber: 92,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "grid grid-cols-1 md:grid-cols-2 gap-8",
+                        className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                                 initial: {
@@ -661,7 +659,7 @@ const KavyanjaliPage = ()=>{
                                     delay: 0.3
                                 },
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                    className: "p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200",
+                                    className: "p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90    transition-all duration-300 border-orange-200 h-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex items-center justify-center gap-2 mb-8",
@@ -670,7 +668,7 @@ const KavyanjaliPage = ()=>{
                                                     className: "w-6 h-6 text-orange-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 182,
+                                                    lineNumber: 180,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -678,20 +676,20 @@ const KavyanjaliPage = ()=>{
                                                     children: "Event Highlights"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 183,
+                                                    lineNumber: 181,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
                                                     className: "w-6 h-6 text-orange-500"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 184,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 181,
+                                            lineNumber: 179,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -718,7 +716,7 @@ const KavyanjaliPage = ()=>{
                                                             children: item.icon
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                            lineNumber: 198,
+                                                            lineNumber: 196,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -726,29 +724,29 @@ const KavyanjaliPage = ()=>{
                                                             children: item.text
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                            lineNumber: 201,
+                                                            lineNumber: 199,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, index, true, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 190,
+                                                    lineNumber: 188,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 188,
+                                            lineNumber: 186,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                    lineNumber: 180,
+                                    lineNumber: 177,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 175,
+                                lineNumber: 172,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -764,7 +762,7 @@ const KavyanjaliPage = ()=>{
                                     delay: 0.3
                                 },
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                                    className: "p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200",
+                                    className: "p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90    transition-all duration-300 border-orange-200 h-full",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex items-center justify-center gap-2 mb-8",
@@ -774,7 +772,7 @@ const KavyanjaliPage = ()=>{
                                                     children: "✦"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 216,
+                                                    lineNumber: 215,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -782,7 +780,7 @@ const KavyanjaliPage = ()=>{
                                                     children: "Registration"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 217,
+                                                    lineNumber: 216,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -790,13 +788,13 @@ const KavyanjaliPage = ()=>{
                                                     children: "✦"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 219,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 215,
+                                            lineNumber: 214,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -812,29 +810,29 @@ const KavyanjaliPage = ()=>{
                                                 children: "Loading Registration Form..."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                                lineNumber: 223,
+                                                lineNumber: 222,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                                            lineNumber: 222,
+                                            lineNumber: 221,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/KavyanjaliPage.jsx",
-                                    lineNumber: 214,
+                                    lineNumber: 212,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                                lineNumber: 209,
+                                lineNumber: 207,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                        lineNumber: 173,
+                        lineNumber: 170,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -851,7 +849,7 @@ const KavyanjaliPage = ()=>{
                         },
                         className: "mt-12 text-center",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$card$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Card"], {
-                            className: "p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200 max-w-2xl mx-auto",
+                            className: "p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90    transition-all duration-300 border-orange-200 max-w-2xl mx-auto",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex items-center justify-center gap-2 mb-6",
@@ -920,18 +918,18 @@ const KavyanjaliPage = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/KavyanjaliPage.jsx",
-                            lineNumber: 246,
+                            lineNumber: 245,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/KavyanjaliPage.jsx",
-                        lineNumber: 240,
+                        lineNumber: 239,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/KavyanjaliPage.jsx",
-                lineNumber: 81,
+                lineNumber: 83,
                 columnNumber: 7
             }, this)
         ]

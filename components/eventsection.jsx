@@ -78,19 +78,19 @@ const HindiEvents = () => (
 );
 
 const ComingSoon = () => (
-  <div className="sm:absolute relative -left-0 sm:-left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700 mb-6 sm:mb-0">
-    <div className="rotate-0 sm:rotate-90 origin-center group animate-sway">
+  <div className="sm:absolute relative sm:-left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 
+    transition-transform duration-700 mb-6 sm:mb-0 w-full sm:w-auto">
+    <div className="rotate-0 sm:rotate-90 origin-center group">
       <div 
-        className="font-samarka text-3xl sm:text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 
+        className="font-samarka text-3xl sm:text-5xl bg-gradient-to-r from-orange-500 via-red-600 to-orange-500 
         text-white p-4 sm:p-6 rounded-lg shadow-lg hover:shadow-[0_0_30px_rgba(255,146,60,0.6)] 
-        transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer
-        group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12
-        w-full text-center"
+        transition-all duration-500 hover:scale-110 cursor-pointer relative overflow-hidden 
+        transform hover:rotate-y-12 w-full text-center border-2 border-orange-400"
       >
-        <span className="relative z-10 animate-float-slow group-hover:text-orange-100 transition-colors duration-300">
+        <span className="relative z-10 text-white font-bold tracking-wider">
           Coming Soon
         </span>
-        <div className="absolute inset-0 bg-gradient-to-r from-red-500/80 via-orange-500/80 to-red-500/80 opacity-50"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-600/90 via-orange-600/90 to-red-600/90"></div>
       </div>
     </div>
   </div>
