@@ -332,6 +332,94 @@ footer{
     height: auto !important;
     min-height: 400px;
   }
+
+  /* General mobile optimizations */
+  .min-h-screen {
+    min-height: -webkit-fill-available;
+  }
+
+  /* Fix mobile navigation */
+  .fixed-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    z-index: 50;
+  }
+
+  /* Improve mobile spacing */
+  .p-4 {
+    padding: 1rem !important;
+  }
+
+  .m-4 {
+    margin: 1rem !important;
+  }
+
+  /* Adjust text sizes for mobile */
+  .text-4xl {
+    font-size: 2rem !important;
+  }
+
+  .text-5xl {
+    font-size: 2.5rem !important;
+  }
+
+  .text-6xl {
+    font-size: 3rem !important;
+  }
+
+  /* Fix mobile card layouts */
+  .card {
+    width: 100% !important;
+    margin: 1rem 0 !important;
+  }
+
+  /* Improve mobile grid layouts */
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  /* Fix mobile images */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Adjust mobile containers */
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  /* Fix mobile overflow issues */
+  .overflow-x-hidden {
+    overflow-x: clip !important;
+  }
+
+  /* Improve mobile touch targets */
+  button, 
+  a {
+    padding: 0.75rem !important;
+    margin: 0.25rem !important;
+  }
+
+  /* Fix mobile form elements */
+  input, 
+  select, 
+  textarea {
+    font-size: 16px !important;
+  }
+
+  /* Adjust mobile iframe */
+  iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 400px !important;
+  }
 }
 
 /* Add smooth scrolling */
@@ -368,4 +456,15 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Add viewport height fix for mobile browsers */
+:root {
+  --vh: 1vh;
+}
+
+.min-h-screen {
+  min-height: calc(var(--vh, 1vh) * 100);
+}
+
+/* Add this script to your page.jsx */
 

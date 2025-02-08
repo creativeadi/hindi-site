@@ -68,7 +68,9 @@ const KavyanjaliPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-orange-100 via-orange-200 to-orange-100 p-4 sm:p-8 relative overflow-hidden">
+    <div className="min-h-screen bg-[url('/bg.png')] bg-cover bg-fixed p-4 sm:p-8 relative overflow-hidden">
+      <div className="absolute inset-0 bg-gradient-to-b from-orange-100/90 to-orange-200/90 backdrop-blur-sm" />
+      
       {/* Particles Background */}
       <Particles
         id="tsparticles"
@@ -78,12 +80,7 @@ const KavyanjaliPage = () => {
       />
 
       {/* Content Container */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        className="max-w-7xl mx-auto relative z-10"
-      >
+      <div className="max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
         {/* Decorative Elements */}
         <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
           <div className="absolute top-10 left-10 w-32 h-32 bg-orange-300/20 rounded-full blur-3xl animate-pulse" />
@@ -170,14 +167,15 @@ const KavyanjaliPage = () => {
         </motion.div>
 
         {/* Main Content Grid with Enhanced Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Event Details Card */}
           <motion.div
             initial={{ x: -100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <Card className="p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200">
+            <Card className="p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 
+              transition-all duration-300 border-orange-200 h-full">
               <div className="flex items-center justify-center gap-2 mb-8">
                 <Sparkles className="w-6 h-6 text-orange-500" />
                 <h3 className="font-samarka text-4xl text-orange-800">
@@ -211,7 +209,8 @@ const KavyanjaliPage = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <Card className="p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200">
+            <Card className="p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 
+              transition-all duration-300 border-orange-200 h-full">
               <div className="flex items-center justify-center gap-2 mb-8">
                 <span className="text-2xl text-orange-500">✦</span>
                 <h3 className="font-samarka text-4xl text-orange-800">
@@ -243,7 +242,8 @@ const KavyanjaliPage = () => {
           transition={{ delay: 0.8 }}
           className="mt-12 text-center"
         >
-          <Card className="p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 transition-all duration-300 border-orange-200 max-w-2xl mx-auto">
+          <Card className="p-4 sm:p-6 backdrop-blur-md bg-white/80 hover:bg-white/90 
+            transition-all duration-300 border-orange-200 max-w-2xl mx-auto">
             <div className="flex items-center justify-center gap-2 mb-6">
               <Users className="w-6 h-6 text-orange-500" />
               <h3 className="font-samarka text-3xl text-orange-800">
@@ -269,7 +269,7 @@ const KavyanjaliPage = () => {
             </div>
           </Card>
         </motion.div>
-      </motion.div>
+      </div>
     </div>
   );
 };
