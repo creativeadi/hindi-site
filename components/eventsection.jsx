@@ -69,41 +69,41 @@ const HindiEvents = () => (
 );
 
 const ComingSoon = () => (
-    <div className="absolute -left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700">
-      <div className="rotate-90 origin-center group animate-sway">
-        <p 
-          className="font-samarka text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg 
-          hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer
-          group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12"
-        >
-          <span className="relative z-10 animate-float-slow group-hover:text-orange-200 transition-colors duration-300">
-            Coming Soon
-          </span>
-          <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-          <div className="absolute -inset-1 bg-gradient-to-r from-orange-600 to-red-600 blur opacity-0 group-hover:opacity-75 transition-all duration-500 animate-gradient-xy"></div>
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-        </p>
+  <div className="absolute -left-8 top-1/2 -translate-y-1/2 hover:translate-x-8 transition-transform duration-700">
+    <div className="rotate-90 origin-center group animate-sway">
+      <div 
+        className="font-samarka text-5xl bg-gradient-to-r from-orange-400 via-red-500 to-orange-400 text-white p-6 rounded-lg shadow-lg 
+        hover:shadow-[0_0_30px_rgba(251,146,60,0.6)] transition-all duration-500 hover:scale-110 animate-gradient-x cursor-pointer
+        group-hover:animate-gradient-pulse relative overflow-hidden transform perspective-1000 hover:rotate-y-12"
+      >
+        <span className="relative z-10 animate-float-slow group-hover:text-orange-200 transition-colors duration-300">
+          Coming Soon
+        </span>
+        <div className="absolute inset-0 bg-gradient-to-r from-red-500 via-orange-500 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="absolute -inset-1 bg-gradient-to-r from-orange-600 to-red-600 blur opacity-0 group-hover:opacity-75 transition-all duration-500 animate-gradient-xy"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(255,255,255,0.2),transparent)] opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
       </div>
     </div>
-  );
+  </div>
+);
 
-  const BowAndArrow = () => (
-    <div className="absolute right-0 top-1/2 -translate-y-1/2 w-40 animate-bow group">
-      <div className="relative">
-        <Image
-          src="/bow copy.png"
-          alt="Bow and Arrow"
-          width={160}
-          height={160}
-          className="w-full h-auto transform hover:scale-110 transition-all duration-300 
-          group-hover:brightness-110 group-hover:contrast-125 filter 
-          hover:drop-shadow-[0_0_15px_rgba(251,146,60,0.6)]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-orange-500/10 to-transparent 
-          opacity-0 group-hover:opacity-100 transition-all duration-500 animate-shine"></div>
-      </div>
+const BowAndArrow = () => (
+  <div className="absolute right-0 top-1/2 -translate-y-1/2 w-40 animate-bow group">
+    <div className="relative">
+      <Image
+        src="/bow copy.png"
+        alt="Bow and Arrow"
+        width={160}
+        height={160}
+        className="w-full h-auto transform hover:scale-110 transition-all duration-300 
+        group-hover:brightness-110 group-hover:contrast-125 filter 
+        hover:drop-shadow-[0_0_15px_rgba(251,146,60,0.6)]"
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-orange-500/10 to-transparent 
+        opacity-0 group-hover:opacity-100 transition-all duration-500 animate-shine"></div>
     </div>
-  );
+  </div>
+);
 
 const EventPage = () => (
     
