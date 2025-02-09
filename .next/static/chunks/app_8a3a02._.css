@@ -1357,12 +1357,12 @@ img, video {
   background-image: linear-gradient(179.56deg, #ffa134 .36%, #ffb259 99.6%);
 }
 
-.bg-gradient-to-b {
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
+.bg-\[url\(\'\/bg\.png\'\)\] {
+  background-image: url("/bg.png");
 }
 
-.bg-gradient-to-br {
-  background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+.bg-gradient-to-b {
+  background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
 .bg-gradient-to-l {
@@ -1375,10 +1375,6 @@ img, video {
 
 .bg-gradient-to-t {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\'\/bg\.png\'\)\] {
-  background-image: url("/bg.png");
 }
 
 .from-\[\#FFE7B3\] {
@@ -3133,6 +3129,10 @@ img {
     gap: 2rem;
   }
 
+  .sm\:gap-4 {
+    gap: 1rem;
+  }
+
   .sm\:space-x-2 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(.5rem * var(--tw-space-x-reverse));
@@ -3152,14 +3152,14 @@ img {
     padding-right: 0;
   }
 
-  .sm\:py-12 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-
   .sm\:px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  }
+
+  .sm\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .sm\:pb-10 {
@@ -3226,10 +3226,6 @@ img {
 
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .md\:text-6xl {
