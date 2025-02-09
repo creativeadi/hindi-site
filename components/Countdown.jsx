@@ -21,18 +21,11 @@ const Countdown = ({ onCountdownComplete }) => {
   });
 
   const calculateTimeLeft = () => {
-    let endDate = localStorage.getItem('countdownEndDate');
+    // Set a fixed end date - 2 days from now (adjust this date as needed)
+    const endDate = new Date('2025-02-11T13:30:00+05:30'); // IST time (UTC+5:30)
+    const now = new Date();
     
-    if (!endDate) {
-      const now = new Date();
-      const istOffset = 330; // IST offset in minutes (UTC+5:30)
-      now.setMinutes(now.getMinutes() + istOffset);
-      const end = new Date(now.getTime() + (3 * 24 * 60 * 60 * 1000));
-      endDate = end.toISOString();
-      localStorage.setItem('countdownEndDate', endDate);
-    }
-
-    const difference = new Date(endDate) - new Date();
+    const difference = endDate - now;
     
     if (difference <= 0) {
       return { days: 0, hours: 0, minutes: 0, seconds: 0 };
@@ -47,22 +40,22 @@ const Countdown = ({ onCountdownComplete }) => {
   };
 
   useEffect(() => {
+    // Initial calculation
+    setTimeLeft(calculateTimeLeft());
+
+    // Update every second
     const timer = setInterval(() => {
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
 
       if (Object.values(newTimeLeft).every(value => value === 0)) {
         clearInterval(timer);
-        setTimeout(() => {
-          setFadeOut(true);
-          setTimeout(onCountdownComplete, 1000);
-        }, 1000);
+        setFadeOut(true);
+        setTimeout(onCountdownComplete, 1000);
       }
 
-      if (newTimeLeft.seconds % 1 === 0) {
-        setPulseEffect(true);
-        setTimeout(() => setPulseEffect(false), 100);
-      }
+      setPulseEffect(true);
+      setTimeout(() => setPulseEffect(false), 100);
     }, 1000);
 
     return () => clearInterval(timer);
@@ -105,11 +98,11 @@ const Countdown = ({ onCountdownComplete }) => {
           ))}
         </div>
 
-        <div className="text-center p-4 sm:p-8 relative z-10">
-          <h1 className="font-samarka text-4xl sm:text-8xl text-orange-800 mb-4 sm:mb-8 relative animate-title">
-            <span className="text-red-700 text-8xl sm:text-15xl relative mr-2 sm:mr-4">✦</span>
-            Hindi Club Website
-            <span className="text-red-700 text-8xl sm:text-15xl relative ml-2 sm:ml-4">✦</span>
+        <div className="text-center p-4 sm:p-8 relative z-10 w-full max-w-4xl mx-auto">
+          <h1 className="font-samarka text-4xl sm:text-8xl text-orange-800 mb-4 sm:mb-8 relative animate-title flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4">
+            <span className="text-red-700 text-6xl sm:text-15xl relative">✦</span>
+            <span className="whitespace-nowrap">Hindi Club Website</span>
+            <span className="text-red-700 text-6xl sm:text-15xl relative">✦</span>
           </h1>
           
           <h2 className="font-samarka text-2xl sm:text-4xl text-orange-800 mb-8 sm:mb-12 animate-reveal">
