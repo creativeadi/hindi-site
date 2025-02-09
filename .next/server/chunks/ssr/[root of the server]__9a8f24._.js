@@ -2551,8 +2551,7 @@ const Countdown = ({ onCountdownComplete })=>{
         seconds: 0
     });
     const calculateTimeLeft = ()=>{
-        // Set a fixed end date - 2 days from now (adjust this date as needed)
-        const endDate = new Date('2025-02-11T13:30:00+05:30'); // IST time (UTC+5:30)
+        const endDate = new Date('2025-02-11T13:30:00+05:30');
         const now = new Date();
         const difference = endDate - now;
         if (difference <= 0) {
@@ -2571,9 +2570,7 @@ const Countdown = ({ onCountdownComplete })=>{
         };
     };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // Initial calculation
         setTimeLeft(calculateTimeLeft());
-        // Update every second
         const timer = setInterval(()=>{
             const newTimeLeft = calculateTimeLeft();
             setTimeLeft(newTimeLeft);
@@ -2599,7 +2596,7 @@ const Countdown = ({ onCountdownComplete })=>{
                             className: "absolute inset-0 bg-gradient-to-t from-black/5 to-transparent"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 70,
+                            lineNumber: 66,
                             columnNumber: 9
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2607,13 +2604,13 @@ const Countdown = ({ onCountdownComplete })=>{
                             children: value.toString().padStart(2, '0')
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 71,
+                            lineNumber: 67,
                             columnNumber: 9
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 66,
+                    lineNumber: 62,
                     columnNumber: 7
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2621,13 +2618,13 @@ const Countdown = ({ onCountdownComplete })=>{
                     children: label
                 }, void 0, false, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 75,
+                    lineNumber: 71,
                     columnNumber: 7
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Countdown.jsx",
-            lineNumber: 65,
+            lineNumber: 61,
             columnNumber: 5
         }, this);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2639,7 +2636,7 @@ const Countdown = ({ onCountdownComplete })=>{
                     className: "absolute inset-0 bg-pattern opacity-5"
                 }, void 0, false, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 84,
+                    lineNumber: 80,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2657,17 +2654,17 @@ const Countdown = ({ onCountdownComplete })=>{
                                 children: "✦"
                             }, void 0, false, {
                                 fileName: "[project]/components/Countdown.jsx",
-                                lineNumber: 96,
+                                lineNumber: 91,
                                 columnNumber: 15
                             }, this)
                         }, i, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 89,
+                            lineNumber: 84,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 87,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2681,7 +2678,7 @@ const Countdown = ({ onCountdownComplete })=>{
                                     children: "✦"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 103,
+                                    lineNumber: 98,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2689,7 +2686,7 @@ const Countdown = ({ onCountdownComplete })=>{
                                     children: "Hindi Club Website"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 104,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2697,13 +2694,13 @@ const Countdown = ({ onCountdownComplete })=>{
                                     children: "✦"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 105,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 102,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2711,7 +2708,7 @@ const Countdown = ({ onCountdownComplete })=>{
                             children: "Revealing Soon"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 108,
+                            lineNumber: 103,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2722,7 +2719,7 @@ const Countdown = ({ onCountdownComplete })=>{
                                     label: "Days"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 113,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimeUnit, {
@@ -2730,7 +2727,7 @@ const Countdown = ({ onCountdownComplete })=>{
                                     label: "Hours"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 114,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimeUnit, {
@@ -2738,7 +2735,7 @@ const Countdown = ({ onCountdownComplete })=>{
                                     label: "Minutes"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 115,
+                                    lineNumber: 110,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(TimeUnit, {
@@ -2746,44 +2743,44 @@ const Countdown = ({ onCountdownComplete })=>{
                                     label: "Seconds"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Countdown.jsx",
-                                    lineNumber: 116,
+                                    lineNumber: 111,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 112,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute -bottom-2 -left-2 sm:-bottom-3 sm:-left-3 w-4 h-4 sm:w-6 sm:h-6 bg-orange-400/50 rounded-full animate-ping-slow"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 120,
+                            lineNumber: 114,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "absolute -top-2 -right-2 sm:-top-3 sm:-right-3 w-4 h-4 sm:w-6 sm:h-6 bg-orange-400/50 rounded-full animate-ping-slow delay-500"
                         }, void 0, false, {
                             fileName: "[project]/components/Countdown.jsx",
-                            lineNumber: 121,
+                            lineNumber: 115,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Countdown.jsx",
-                    lineNumber: 101,
+                    lineNumber: 96,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Countdown.jsx",
-            lineNumber: 83,
+            lineNumber: 79,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Countdown.jsx",
-        lineNumber: 82,
+        lineNumber: 78,
         columnNumber: 5
     }, this);
 };

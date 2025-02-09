@@ -21,8 +21,7 @@ const Countdown = ({ onCountdownComplete }) => {
   });
 
   const calculateTimeLeft = () => {
-    // Set a fixed end date - 2 days from now (adjust this date as needed)
-    const endDate = new Date('2025-02-11T13:30:00+05:30'); // IST time (UTC+5:30)
+    const endDate = new Date('2025-02-11T13:30:00+05:30'); 
     const now = new Date();
     
     const difference = endDate - now;
@@ -40,10 +39,7 @@ const Countdown = ({ onCountdownComplete }) => {
   };
 
   useEffect(() => {
-    // Initial calculation
     setTimeLeft(calculateTimeLeft());
-
-    // Update every second
     const timer = setInterval(() => {
       const newTimeLeft = calculateTimeLeft();
       setTimeLeft(newTimeLeft);
@@ -83,7 +79,6 @@ const Countdown = ({ onCountdownComplete }) => {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-orange-100 via-orange-200 to-orange-100 relative overflow-hidden">
         <div className="absolute inset-0 bg-pattern opacity-5"></div>
         
-        {/* Stars background */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           {starPositions.map((position, i) => (
             <div key={i} className="absolute animate-float-random"
@@ -116,7 +111,6 @@ const Countdown = ({ onCountdownComplete }) => {
             <TimeUnit value={timeLeft.seconds} label="Seconds" />
           </div>
 
-          {/* Corner decorations */}
           <div className="absolute -bottom-2 -left-2 sm:-bottom-3 sm:-left-3 w-4 h-4 sm:w-6 sm:h-6 bg-orange-400/50 rounded-full animate-ping-slow"></div>
           <div className="absolute -top-2 -right-2 sm:-top-3 sm:-right-3 w-4 h-4 sm:w-6 sm:h-6 bg-orange-400/50 rounded-full animate-ping-slow delay-500"></div>
         </div>
