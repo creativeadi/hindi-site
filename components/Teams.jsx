@@ -21,7 +21,7 @@ export default function Home() {
       instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
     },
     {
-      src: "/assets/teams/dheeraj.png",
+      src: "/assets/teams/dheeraj2.png",
       name: "Dheeraj Saraswat",
       designation: "Vice President",
       linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
@@ -151,12 +151,14 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[linear-gradient(179.56deg,#FFA134_0.36%,#FFB259_99.6%)] py-12">
-      <h1 className="font-samarka" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333", marginBottom: isMobile ? "20px" : "40px" }}>
+      <h1 className="font-samarka mb-16" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333" }}>
         Meet Our Team
       </h1>
       
       {/* Faculty Only */}
-      <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`}>
+      <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`} 
+        style={{ marginTop: "20px", marginBottom: "40px" }}
+      >
         {faculty.map((profile, index) => (
           <div 
             key={index}
@@ -182,9 +184,9 @@ export default function Home() {
                   href={profile.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="w-5 h-5 text-[#0077b5]" />
                 </a>
               </div>
             </div>
@@ -219,18 +221,20 @@ export default function Home() {
                   href={profile.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="w-5 h-5 text-[#0077b5]" />
                 </a>
-                <a
-                  href={profile.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
-                >
-                  <FaInstagram />
-                </a>
+                {profile.instagram && (
+                  <a
+                    href={profile.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
+                  >
+                    <FaInstagram className="w-5 h-5 text-[#e4405f]" />
+                  </a>
+                )}
               </div>
             </div>
           </div>
