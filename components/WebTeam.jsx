@@ -38,9 +38,9 @@ export default function Home() {
       instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
     },
     {
-      src: "/assets/teams/dheeraj.png",
+      src: "/assets/teams/dheeraj2.png",
       name: "Dheeraj Saraswat",
-      designation: "V.President",
+      designation: "Vice President",
       linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
       instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
     },
@@ -98,11 +98,13 @@ export default function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center py-12"
       style={{marginBottom: isMobile ? "10px" : "40px"}}
     >
-      <h1 className="font-samarka" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333", marginBottom: isMobile ? "20px" : "40px" }}>
+      <h1 className="font-samarka mb-16" style={{ fontSize: isMobile ? "40px" : "80px", color: "#333" }}>
         Website Development Team
       </h1>
       {/* President Only */}
-      <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`} style={{ marginTop: "20px", marginBottom:"10px" }}>
+      <div className={`flex flex-wrap gap-8 justify-center items-center ${isMobile ? 'p-4' : ''}`} 
+        style={{ marginTop: "20px", marginBottom: "40px" }}
+      >
         {President.map((profile, index) => (
           <div 
             key={index}
@@ -128,17 +130,17 @@ export default function Home() {
                   href={profile.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="w-5 h-5 text-[#0077b5]" />
                 </a>
                 <a
-                  href={President.instagram}
+                  href={profile.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaInstagram />
+                  <FaInstagram className="w-5 h-5 text-[#e4405f]" />
                 </a>
               </div>
             </div>
@@ -173,17 +175,17 @@ export default function Home() {
                   href={profile.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className="w-5 h-5 text-[#0077b5]" />
                 </a>
                 <a
                   href={profile.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white p-2 rounded-full shadow-lg"
+                  className="bg-white w-10 h-10 rounded-full shadow-lg flex items-center justify-center hover:bg-gray-50 transition-colors"
                 >
-                  <FaInstagram />
+                  <FaInstagram className="w-5 h-5 text-[#e4405f]" />
                 </a>
               </div>
             </div>
