@@ -38,6 +38,13 @@ export default function Home() {
       instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
     },
     {
+      src: "/assets/teams/dheeraj.png",
+      name: "Dheeraj Saraswat",
+      designation: "V.President",
+      linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
+      instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
+    },
+    {
       src: "/assets/teams/harsh.png",
       name: "Harsh Aditya",
       designation: "Technical, Team Lead",

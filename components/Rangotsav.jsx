@@ -9,7 +9,7 @@ const ImageSlider = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const albumImages = [
-    { src: '/assets/images/rangotsav/1.jpg', name: 'Rangotsav ' },
+    { src: '/assets/images/rangotsav/6.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/2.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/4.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/3.jpg', name: 'Rangotsav ' },
@@ -18,7 +18,7 @@ const ImageSlider = () => {
     { src: '/assets/images/rangotsav/4.3.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/4.4.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/5.jpg', name: 'Rangotsav ' },
-    { src: '/assets/images/rangotsav/6.jpg', name: 'Rangotsav ' },
+    { src: '/assets/images/rangotsav/1.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/7.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/8.jpg', name: 'Rangotsav ' },
     { src: '/assets/images/rangotsav/9.jpg', name: 'Rangotsav ' },
@@ -76,24 +76,24 @@ const ImageSlider = () => {
           ...styles.polaroidWrapper,
           width: isMobile ? "90%" : "280px", // Adjust width for mobile
           padding: isMobile ? "10px" : "10px 10px 30px",
-          height: isMobile ? "400px" : "380px",
+          height: isMobile ? "430px" : "380px",
         }}
       >
         <Image
           src={albumImages[currentIndex].src}
           alt={`Image ${currentIndex + 1}`}
           width={isMobile ? 350 : 700} // Adjust width for mobile
-          height={isMobile ? 400 : 800} // Adjust height for mobile
+          height={isMobile ? 400: 800}
           style={{
             ...styles.polaroidImage,
             width: isMobile ? "300px" : "300px", // Adjust Polaroid image size
-            height: isMobile ? "350px" : "300px",
+            height: isMobile ? "400px" : "300px",
           }}
         />
         <div
           style={{
             ...styles.caption,
-            fontSize: isMobile ? "20px" : "35px", // Adjust caption size
+            fontSize: isMobile ? "30px" : "35px", // Adjust caption size
           }}
         >
           {albumImages[currentIndex].name}
