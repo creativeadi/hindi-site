@@ -434,7 +434,7 @@ const ImageSlider = ()=>{
     const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const albumImages = [
         {
-            src: '/assets/images/hindidiwas/1.jpeg',
+            src: '/assets/images/hindidiwas/4.jpeg',
             name: 'Hindi Diwas'
         },
         {
@@ -625,11 +625,11 @@ const ImageSlider = ()=>{
     const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const albumImages = [
         {
-            src: '/assets/images/kavyanjali/1.jpeg',
+            src: '/assets/images/kavyanjali/8.jpg',
             name: 'Kavyanjali'
         },
         {
-            src: '/assets/images/kavyanjali/2.jpeg',
+            src: '/assets/images/kavyanjali/11.jpeg',
             name: 'Kavyanjali'
         },
         {
@@ -653,7 +653,7 @@ const ImageSlider = ()=>{
             name: 'Kavyanjali'
         },
         {
-            src: '/assets/images/kavyanjali/8.jpg',
+            src: '/assets/images/kavyanjali/2.jpg',
             name: 'Kavyanjali'
         },
         {
@@ -665,7 +665,7 @@ const ImageSlider = ()=>{
             name: 'Kavyanjali'
         },
         {
-            src: '/assets/images/kavyanjali/11.jpg',
+            src: '/assets/images/kavyanjali/1.jpg',
             name: 'Kavyanjali'
         },
         {
@@ -852,7 +852,7 @@ const ImageSlider = ()=>{
     const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const albumImages = [
         {
-            src: '/assets/images/rangotsav/1.jpg',
+            src: '/assets/images/rangotsav/6.jpg',
             name: 'Rangotsav '
         },
         {
@@ -888,7 +888,7 @@ const ImageSlider = ()=>{
             name: 'Rangotsav '
         },
         {
-            src: '/assets/images/rangotsav/6.jpg',
+            src: '/assets/images/rangotsav/1.jpg',
             name: 'Rangotsav '
         },
         {
@@ -961,7 +961,7 @@ const ImageSlider = ()=>{
                     ...styles.polaroidWrapper,
                     width: isMobile ? "90%" : "280px",
                     padding: isMobile ? "10px" : "10px 10px 30px",
-                    height: isMobile ? "400px" : "380px"
+                    height: isMobile ? "430px" : "380px"
                 },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -972,7 +972,7 @@ const ImageSlider = ()=>{
                         style: {
                             ...styles.polaroidImage,
                             width: isMobile ? "300px" : "300px",
-                            height: isMobile ? "350px" : "300px"
+                            height: isMobile ? "400px" : "300px"
                         }
                     }, void 0, false, {
                         fileName: "[project]/components/Rangotsav.jsx",
@@ -982,7 +982,7 @@ const ImageSlider = ()=>{
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         style: {
                             ...styles.caption,
-                            fontSize: isMobile ? "20px" : "35px"
+                            fontSize: isMobile ? "30px" : "35px"
                         },
                         children: albumImages[currentIndex].name
                     }, void 0, false, {
@@ -1337,7 +1337,7 @@ function Home() {
             name: "Dheeraj Saraswat",
             designation: "Vice President",
             linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
-            instagram: "https://www.instagram.com/dheerajj_sarswat/profilecard/?igsh=MXc2cTM1MGZpM2R1Yw=="
+            instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ=="
         },
         {
             src: "/assets/teams/ayush.png",
@@ -1714,6 +1714,13 @@ function Home() {
             instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ=="
         },
         {
+            src: "/assets/teams/dheeraj.png",
+            name: "Dheeraj Saraswat",
+            designation: "V.President",
+            linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
+            instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ=="
+        },
+        {
             src: "/assets/teams/harsh.png",
             name: "Harsh Aditya",
             designation: "Technical, Team Lead",
@@ -1769,7 +1776,7 @@ function Home() {
                 children: "Website Development Team"
             }, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 94,
+                lineNumber: 101,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1792,7 +1799,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 106,
+                                        lineNumber: 113,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1800,7 +1807,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 113,
+                                        lineNumber: 120,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1808,13 +1815,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 114,
+                                        lineNumber: 121,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 105,
+                                lineNumber: 112,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1829,12 +1836,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 126,
+                                                lineNumber: 133,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 120,
+                                            lineNumber: 127,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1844,44 +1851,44 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 134,
+                                                lineNumber: 141,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 128,
+                                            lineNumber: 135,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WebTeam.jsx",
-                                    lineNumber: 119,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 118,
+                                lineNumber: 125,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/WebTeam.jsx",
-                        lineNumber: 100,
+                        lineNumber: 107,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 98,
+                lineNumber: 105,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 141,
+                lineNumber: 148,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 142,
+                lineNumber: 149,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1900,7 +1907,7 @@ function Home() {
                                         height: 300
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 151,
+                                        lineNumber: 158,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -1908,7 +1915,7 @@ function Home() {
                                         children: profile.name
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 158,
+                                        lineNumber: 165,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1916,13 +1923,13 @@ function Home() {
                                         children: profile.designation
                                     }, void 0, false, {
                                         fileName: "[project]/components/WebTeam.jsx",
-                                        lineNumber: 159,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 150,
+                                lineNumber: 157,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1937,12 +1944,12 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaLinkedin"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 171,
+                                                lineNumber: 178,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 165,
+                                            lineNumber: 172,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1952,40 +1959,40 @@ function Home() {
                                             className: "bg-white p-2 rounded-full shadow-lg",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$fa$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FaInstagram"], {}, void 0, false, {
                                                 fileName: "[project]/components/WebTeam.jsx",
-                                                lineNumber: 179,
+                                                lineNumber: 186,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/WebTeam.jsx",
-                                            lineNumber: 173,
+                                            lineNumber: 180,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/WebTeam.jsx",
-                                    lineNumber: 164,
+                                    lineNumber: 171,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/WebTeam.jsx",
-                                lineNumber: 163,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, index, true, {
                         fileName: "[project]/components/WebTeam.jsx",
-                        lineNumber: 145,
+                        lineNumber: 152,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/WebTeam.jsx",
-                lineNumber: 143,
+                lineNumber: 150,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/WebTeam.jsx",
-        lineNumber: 91,
+        lineNumber: 98,
         columnNumber: 5
     }, this);
 }
@@ -2551,7 +2558,7 @@ const Countdown = ({ onCountdownComplete })=>{
         seconds: 0
     });
     const calculateTimeLeft = ()=>{
-        const endDate = new Date('2025-02-11T13:30:00+05:30');
+        const endDate = new Date('2025-02-21T13:30:00+05:30');
         const now = new Date();
         const difference = endDate - now;
         if (difference <= 0) {

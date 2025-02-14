@@ -9,7 +9,7 @@ const ImageSlider = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const albumImages = [
-    { src: '/assets/images/hindidiwas/1.jpeg', name: 'Hindi Diwas' },
+    { src: '/assets/images/hindidiwas/4.jpeg', name: 'Hindi Diwas' },
     { src: '/assets/images/hindidiwas/2.jpeg', name: 'Hindi Diwas' },
     { src: '/assets/images/hindidiwas/3.jpeg', name: 'Hindi Diwas' },
     { src: '/assets/images/hindidiwas/4.jpeg', name: 'Hindi Diwas' },

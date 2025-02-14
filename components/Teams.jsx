@@ -25,7 +25,7 @@ export default function Home() {
       name: "Dheeraj Saraswat",
       designation: "Vice President",
       linkedin: "http://www.linkedin.com/in/dheeraj-saraswat04",
-      instagram: "https://www.instagram.com/dheerajj_sarswat/profilecard/?igsh=MXc2cTM1MGZpM2R1Yw==",
+      instagram: "https://www.instagram.com/_.dharmveer/profilecard/?igsh=MXRldzB3MnNtdjA2ZQ==",
     },
     {
       src: "/assets/teams/ayush.png",

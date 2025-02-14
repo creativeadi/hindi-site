@@ -21,7 +21,7 @@ const Countdown = ({ onCountdownComplete }) => {
   });
 
   const calculateTimeLeft = () => {
-    const endDate = new Date('2025-02-11T13:30:00+05:30'); 
+    const endDate = new Date('2025-02-21T13:30:00+05:30'); 
     const now = new Date();
     
     const difference = endDate - now;

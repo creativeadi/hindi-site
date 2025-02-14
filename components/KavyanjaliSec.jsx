@@ -9,17 +9,17 @@ const ImageSlider = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   const albumImages = [
-    { src: '/assets/images/kavyanjali/1.jpeg', name: 'Kavyanjali' },
-    { src: '/assets/images/kavyanjali/2.jpeg', name: 'Kavyanjali' },
+    { src: '/assets/images/kavyanjali/8.jpg', name: 'Kavyanjali' },
+    { src: '/assets/images/kavyanjali/11.jpeg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/3.jpeg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/4.jpeg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/5.jpeg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/6.jpeg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/7.jpg', name: 'Kavyanjali' },
-    { src: '/assets/images/kavyanjali/8.jpg', name: 'Kavyanjali' },
+    { src: '/assets/images/kavyanjali/2.jpg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/9.jpg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/10.jpg', name: 'Kavyanjali' },
-    { src: '/assets/images/kavyanjali/11.jpg', name: 'Kavyanjali' },
+    { src: '/assets/images/kavyanjali/1.jpg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/12.jpg', name: 'Kavyanjali' },
     { src: '/assets/images/kavyanjali/13.jpg', name: 'Kavyanjali' },
   ];
